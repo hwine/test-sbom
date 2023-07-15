@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: try it
-      uses: Brend-Smits/github-sbom-generator-action@v1.0.1
+      uses: Brend-Smits/github-sbom-generator-action@v1.1.0
       with:
         repo_list_path: repo-list.txt
         save_directory_path: sboms
