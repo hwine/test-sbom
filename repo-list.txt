@@ -1,0 +1,2 @@
+mozilla/kitsune
+hwine/github-org-scripts

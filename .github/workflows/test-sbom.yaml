@@ -1,0 +1,23 @@
+name: SBOM trial
+
+on:
+  workflow_dispatch:
+
+jobs:
+  retrieve-sboms:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+    - name: try it
+      uses: Brend-Smits/github-sbom-generator-action@v1.0.1
+      with:
+        repo_list_path: repo-list.txt
+        save_directory_path: sboms
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: upload
+      uses: actions/upload-artifact@latest
+      with:
+        name: all-repos-sboms
+        path: sboms
