@@ -1,2 +1,2 @@
-mozilla/kitsune
 hwine/github-org-scripts
+mozilla/kitsune
