@@ -17,7 +17,7 @@ jobs:
         save_directory_path: sboms
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: upload
-      uses: actions/upload-artifact@latest
+      uses: actions/upload-artifact
       with:
         name: all-repos-sboms
         path: sboms
