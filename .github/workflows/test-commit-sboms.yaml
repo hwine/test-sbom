@@ -25,10 +25,10 @@ jobs:
 ##        path: sboms
     - name: pretty print the JSON
       run: |
-        for d in $(find sboms -type d); do
+        for d in $(find wip -type d); do
           mkdir -p ${d#*/}
         done
-        for f in $(find sboms -type f) ; do
+        for f in $(find wip -type f) ; do
           jq . "$f" > "${f#*/}"
         done
 
@@ -37,5 +37,7 @@ jobs:
         git config user.name "hwine"
         git config user.email "132412+hwine@users.noreply.github.com"
         git add .
-        git commit --message "update from workflow"
+        # we may not have added anything, so allow the commit to fail
+        # TODO: find a better test to _only_ allow no-change-error to be suppressed
+        git commit --message "update from workflow" || true
         git push
