@@ -12,17 +12,25 @@ jobs:
     - name: checkout
       uses: actions/checkout@v3
 
-    - name: try it
+    - name: generate sboms
       uses: Brend-Smits/github-sbom-generator-action@v1.1.0
       with:
         repo_list_path: repo-list.txt
-        save_directory_path: .
+        save_directory_path: wip
         github_token: ${{ secrets.GITHUB_TOKEN }}
 ##    - name: upload
 ##      uses: actions/upload-artifact@v3
 ##      with:
 ##        name: all-repos-sboms
 ##        path: sboms
+    - name pretty print the JSON
+      run: |
+        for d in $(find sboms -type d); do
+          mkdir -p ${d#*/}
+        done
+        for f in $(find sboms -type f) ; do \
+          jq . "$f" > "${f#*/}"
+        done
 
     - name: commit any changes
       run: |
