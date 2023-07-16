@@ -1,1 +1,1755 @@
-{"sbom":{"SPDXID":"SPDXRef-DOCUMENT","spdxVersion":"SPDX-2.3","creationInfo":{"created":"2023-07-16T00:00:49Z","creators":["Tool: GitHub.com-Dependency-Graph"]},"name":"com.github.hwine/github-org-scripts","dataLicense":"CC0-1.0","documentDescribes":["SPDXRef-com.github.hwine-github-org-scripts"],"documentNamespace":"https://github.com/hwine/github-org-scripts/dependency_graph/sbom-eed2d5a7a03d2f9a","packages":[{"SPDXID":"SPDXRef-com.github.hwine-github-org-scripts","name":"com.github.hwine/github-org-scripts","versionInfo":"","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-appnope-0.1.2","name":"pip:appnope","versionInfo":"0.1.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/appnope@0.1.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-argcomplete-1.12.3","name":"pip:argcomplete","versionInfo":"1.12.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/argcomplete@1.12.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-argon2-cffi-20.1.0","name":"pip:argon2-cffi","versionInfo":"20.1.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/argon2-cffi@20.1.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-arrow-0.12.1","name":"pip:arrow","versionInfo":"0.12.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/arrow@0.12.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-async-generator-1.10","name":"pip:async-generator","versionInfo":"1.10","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"(Apache-2.0 AND BSD-3-Clause) OR (Apache-2.0 AND MIT)","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/async-generator@1.10","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-attrs-20.3.0","name":"pip:attrs","versionInfo":"20.3.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/attrs@20.3.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-backcall-0.2.0","name":"pip:backcall","versionInfo":"0.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/backcall@0.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-bleach-3.3.0","name":"pip:bleach","versionInfo":"3.3.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/bleach@3.3.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-certifi-2020.12.5","name":"pip:certifi","versionInfo":"2020.12.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MPL-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/certifi@2020.12.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-cffi-1.14.5","name":"pip:cffi","versionInfo":"1.14.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/cffi@1.14.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-chardet-4.0.0","name":"pip:chardet","versionInfo":"4.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"LGPL-2.1-or-later","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/chardet@4.0.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-colorama-0.4.4","name":"pip:colorama","versionInfo":"0.4.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/colorama@0.4.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-decorator-5.0.7","name":"pip:decorator","versionInfo":"5.0.7","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/decorator@5.0.7","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-defusedxml-0.7.1","name":"pip:defusedxml","versionInfo":"0.7.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"PSF-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/defusedxml@0.7.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-entrypoints-0.3","name":"pip:entrypoints","versionInfo":"0.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/entrypoints@0.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-github3-py-1.0.0a4","name":"pip:github3-py","versionInfo":"1.0.0a4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/github3-py@1.0.0a4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-idna-2.10","name":"pip:idna","versionInfo":"2.10","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/idna@2.10","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-ipykernel-5.5.3","name":"pip:ipykernel","versionInfo":"5.5.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/ipykernel@5.5.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-ipython-7.23.0","name":"pip:ipython","versionInfo":"7.23.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/ipython@7.23.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-ipython-genutils-0.2.0","name":"pip:ipython-genutils","versionInfo":"0.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/ipython-genutils@0.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-ipywidgets-7.6.3","name":"pip:ipywidgets","versionInfo":"7.6.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/ipywidgets@7.6.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jedi-0.18.0","name":"pip:jedi","versionInfo":"0.18.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jedi@0.18.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jinja2-2.11.3","name":"pip:jinja2","versionInfo":"2.11.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jinja2@2.11.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jsonschema-3.2.0","name":"pip:jsonschema","versionInfo":"3.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jsonschema@3.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jsonstreams-0.4.1","name":"pip:jsonstreams","versionInfo":"0.4.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jsonstreams@0.4.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-1.0.0","name":"pip:jupyter","versionInfo":"1.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter@1.0.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-client-6.2.0","name":"pip:jupyter-client","versionInfo":"6.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter-client@6.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-console-6.4.0","name":"pip:jupyter-console","versionInfo":"6.4.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter-console@6.4.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-core-4.7.1","name":"pip:jupyter-core","versionInfo":"4.7.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter-core@4.7.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyterlab-pygments-0.1.2","name":"pip:jupyterlab-pygments","versionInfo":"0.1.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyterlab-pygments@0.1.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyterlab-widgets-1.0.0","name":"pip:jupyterlab-widgets","versionInfo":"1.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyterlab-widgets@1.0.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-markupsafe-1.1.1","name":"pip:markupsafe","versionInfo":"1.1.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/markupsafe@1.1.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-matplotlib-inline-0.1.2","name":"pip:matplotlib-inline","versionInfo":"0.1.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/matplotlib-inline@0.1.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-mistune-0.8.4","name":"pip:mistune","versionInfo":"0.8.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/mistune@0.8.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-nbclient-0.5.3","name":"pip:nbclient","versionInfo":"0.5.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/nbclient@0.5.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-nbconvert-6.0.7","name":"pip:nbconvert","versionInfo":"6.0.7","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/nbconvert@6.0.7","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-nbformat-5.1.3","name":"pip:nbformat","versionInfo":"5.1.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/nbformat@5.1.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-nest-asyncio-1.5.1","name":"pip:nest-asyncio","versionInfo":"1.5.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/nest-asyncio@1.5.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-notebook-6.3.0","name":"pip:notebook","versionInfo":"6.3.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/notebook@6.3.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-packaging-20.9","name":"pip:packaging","versionInfo":"20.9","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 OR (Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause)","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/packaging@20.9","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pandocfilters-1.4.3","name":"pip:pandocfilters","versionInfo":"1.4.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pandocfilters@1.4.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-parso-0.8.2","name":"pip:parso","versionInfo":"0.8.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/parso@0.8.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pexpect-4.8.0","name":"pip:pexpect","versionInfo":"4.8.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"ISC","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pexpect@4.8.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pickleshare-0.7.5","name":"pip:pickleshare","versionInfo":"0.7.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pickleshare@0.7.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-prometheus-client-0.10.1","name":"pip:prometheus-client","versionInfo":"0.10.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/prometheus-client@0.10.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-prompt-toolkit-3.0.18","name":"pip:prompt-toolkit","versionInfo":"3.0.18","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/prompt-toolkit@3.0.18","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-ptyprocess-0.7.0","name":"pip:ptyprocess","versionInfo":"0.7.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"ISC","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/ptyprocess@0.7.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-py-1.10.0","name":"pip:py","versionInfo":"1.10.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/py@1.10.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pycparser-2.20","name":"pip:pycparser","versionInfo":"2.20","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pycparser@2.20","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pygments-2.8.1","name":"pip:pygments","versionInfo":"2.8.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pygments@2.8.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pyparsing-2.4.7","name":"pip:pyparsing","versionInfo":"2.4.7","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pyparsing@2.4.7","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pyrsistent-0.17.3","name":"pip:pyrsistent","versionInfo":"0.17.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pyrsistent@0.17.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-python-dateutil-2.8.1","name":"pip:python-dateutil","versionInfo":"2.8.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/python-dateutil@2.8.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pywin32-300","name":"pip:pywin32","versionInfo":"300","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"PSF-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pywin32@300","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pywinpty-1.0.1","name":"pip:pywinpty","versionInfo":"1.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pywinpty@1.0.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pyyaml-5.1.2","name":"pip:pyyaml","versionInfo":"5.1.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pyyaml@5.1.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pyzmq-22.0.3","name":"pip:pyzmq","versionInfo":"22.0.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pyzmq@22.0.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-qtconsole-5.0.3","name":"pip:qtconsole","versionInfo":"5.0.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/qtconsole@5.0.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-qtpy-1.9.0","name":"pip:qtpy","versionInfo":"1.9.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/qtpy@1.9.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-requests-2.25.1","name":"pip:requests","versionInfo":"2.25.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/requests@2.25.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-selenium-3.141.0","name":"pip:selenium","versionInfo":"3.141.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/selenium@3.141.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-send2trash-1.5.0","name":"pip:send2trash","versionInfo":"1.5.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/send2trash@1.5.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-six-1.15.0","name":"pip:six","versionInfo":"1.15.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/six@1.15.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-terminado-0.9.4","name":"pip:terminado","versionInfo":"0.9.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/terminado@0.9.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-testpath-0.4.4","name":"pip:testpath","versionInfo":"0.4.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/testpath@0.4.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-tinydb-3.2.1","name":"pip:tinydb","versionInfo":"3.2.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/tinydb@3.2.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-tornado-6.1","name":"pip:tornado","versionInfo":"6.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/tornado@6.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-traitlets-5.0.5","name":"pip:traitlets","versionInfo":"5.0.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/traitlets@5.0.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-uritemplate-3.0.1","name":"pip:uritemplate","versionInfo":"3.0.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 OR (Apache-2.0 AND BSD-3-Clause)","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/uritemplate@3.0.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-uritemplate-py-3.0.2","name":"pip:uritemplate-py","versionInfo":"3.0.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 OR (Apache-2.0 AND BSD-3-Clause)","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/uritemplate-py@3.0.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-urllib3-1.26.4","name":"pip:urllib3","versionInfo":"1.26.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/urllib3@1.26.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-wcwidth-0.2.5","name":"pip:wcwidth","versionInfo":"0.2.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/wcwidth@0.2.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-webencodings-0.5.1","name":"pip:webencodings","versionInfo":"0.5.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/webencodings@0.5.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-widgetsnbextension-3.5.1","name":"pip:widgetsnbextension","versionInfo":"3.5.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/widgetsnbextension@3.5.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-argcomplete","name":"pip:argcomplete","versionInfo":"^ 1.12.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-arrow","name":"pip:arrow","versionInfo":"^ 0.12.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-github-selenium","name":"pip:github-selenium","versionInfo":"","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-github3-py","name":"pip:github3-py","versionInfo":"< 2.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-jsonstreams","name":"pip:jsonstreams","versionInfo":"","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-jupyter","name":"pip:jupyter","versionInfo":"^ 1.0.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-jupyterlab","name":"pip:jupyterlab","versionInfo":"^ 3.0.14","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-pytest","name":"pip:pytest","versionInfo":"^ 6.2.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-python","name":"pip:python","versionInfo":"^ 3.8","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-pyyaml","name":"pip:pyyaml","versionInfo":"","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-tinydb","name":"pip:tinydb","versionInfo":"","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"NOASSERTION","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION"},{"SPDXID":"SPDXRef-pip-anyio-2.2.0","name":"pip:anyio","versionInfo":"2.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/anyio@2.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-atomicwrites-1.4.0","name":"pip:atomicwrites","versionInfo":"1.4.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/atomicwrites@1.4.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-babel-2.9.1","name":"pip:babel","versionInfo":"2.9.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/babel@2.9.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-cryptography-3.4.7","name":"pip:cryptography","versionInfo":"3.4.7","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0 AND BSD-3-Clause AND Python-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/cryptography@3.4.7","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-deprecation-2.1.0","name":"pip:deprecation","versionInfo":"2.1.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/deprecation@2.1.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-github3-py-1.3.0","name":"pip:github3-py","versionInfo":"1.3.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause AND BSD-3-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/github3-py@1.3.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-iniconfig-1.1.1","name":"pip:iniconfig","versionInfo":"1.1.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/iniconfig@1.1.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-json5-0.9.5","name":"pip:json5","versionInfo":"0.9.5","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"Apache-2.0","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/json5@0.9.5","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-packaging-0.9.2","name":"pip:jupyter-packaging","versionInfo":"0.9.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter-packaging@0.9.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyter-server-1.6.4","name":"pip:jupyter-server","versionInfo":"1.6.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyter-server@1.6.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyterlab-3.0.14","name":"pip:jupyterlab","versionInfo":"3.0.14","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyterlab@3.0.14","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jupyterlab-server-2.5.0","name":"pip:jupyterlab-server","versionInfo":"2.5.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jupyterlab-server@2.5.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-jwcrypto-0.8","name":"pip:jwcrypto","versionInfo":"0.8","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"LGPL-3.0 AND LGPL-3.0-only","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/jwcrypto@0.8","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-nbclassic-0.2.7","name":"pip:nbclassic","versionInfo":"0.2.7","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"BSD-2-Clause","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/nbclassic@0.2.7","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pluggy-0.13.1","name":"pip:pluggy","versionInfo":"0.13.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pluggy@0.13.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pytest-6.2.3","name":"pip:pytest","versionInfo":"6.2.3","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pytest@6.2.3","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pytz-2021.1","name":"pip:pytz","versionInfo":"2021.1","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pytz@2021.1","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-pyyaml-5.4","name":"pip:pyyaml","versionInfo":"5.4","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/pyyaml@5.4","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-sniffio-1.2.0","name":"pip:sniffio","versionInfo":"1.2.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"(Apache-2.0 AND BSD-3-Clause) OR (Apache-2.0 AND MIT)","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/sniffio@1.2.0","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-toml-0.10.2","name":"pip:toml","versionInfo":"0.10.2","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/toml@0.10.2","referenceType":"purl"}]},{"SPDXID":"SPDXRef-pip-tomlkit-0.7.0","name":"pip:tomlkit","versionInfo":"0.7.0","downloadLocation":"NOASSERTION","filesAnalyzed":false,"licenseConcluded":"MIT","licenseDeclared":"NOASSERTION","supplier":"NOASSERTION","externalRefs":[{"referenceCategory":"PACKAGE-MANAGER","referenceLocator":"pkg:pypi/tomlkit@0.7.0","referenceType":"purl"}]}]}}
+{
+  "sbom": {
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+      "created": "2023-07-16T17:01:54Z",
+      "creators": [
+        "Tool: GitHub.com-Dependency-Graph"
+      ]
+    },
+    "name": "com.github.hwine/github-org-scripts",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+      "SPDXRef-com.github.hwine-github-org-scripts"
+    ],
+    "documentNamespace": "https://github.com/hwine/github-org-scripts/dependency_graph/sbom-4b2e9099f050d8fe",
+    "packages": [
+      {
+        "SPDXID": "SPDXRef-com.github.hwine-github-org-scripts",
+        "name": "com.github.hwine/github-org-scripts",
+        "versionInfo": "",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-appnope-0.1.2",
+        "name": "pip:appnope",
+        "versionInfo": "0.1.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/appnope@0.1.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-argcomplete-1.12.3",
+        "name": "pip:argcomplete",
+        "versionInfo": "1.12.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/argcomplete@1.12.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-argon2-cffi-20.1.0",
+        "name": "pip:argon2-cffi",
+        "versionInfo": "20.1.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/argon2-cffi@20.1.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-arrow-0.12.1",
+        "name": "pip:arrow",
+        "versionInfo": "0.12.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/arrow@0.12.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-async-generator-1.10",
+        "name": "pip:async-generator",
+        "versionInfo": "1.10",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "(Apache-2.0 AND BSD-3-Clause) OR (Apache-2.0 AND MIT)",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/async-generator@1.10",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-attrs-20.3.0",
+        "name": "pip:attrs",
+        "versionInfo": "20.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/attrs@20.3.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-backcall-0.2.0",
+        "name": "pip:backcall",
+        "versionInfo": "0.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/backcall@0.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-bleach-3.3.0",
+        "name": "pip:bleach",
+        "versionInfo": "3.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/bleach@3.3.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-certifi-2020.12.5",
+        "name": "pip:certifi",
+        "versionInfo": "2020.12.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MPL-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/certifi@2020.12.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-cffi-1.14.5",
+        "name": "pip:cffi",
+        "versionInfo": "1.14.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/cffi@1.14.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-chardet-4.0.0",
+        "name": "pip:chardet",
+        "versionInfo": "4.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "LGPL-2.1-or-later",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/chardet@4.0.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-colorama-0.4.4",
+        "name": "pip:colorama",
+        "versionInfo": "0.4.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/colorama@0.4.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-decorator-5.0.7",
+        "name": "pip:decorator",
+        "versionInfo": "5.0.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/decorator@5.0.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-defusedxml-0.7.1",
+        "name": "pip:defusedxml",
+        "versionInfo": "0.7.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "PSF-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/defusedxml@0.7.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-entrypoints-0.3",
+        "name": "pip:entrypoints",
+        "versionInfo": "0.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/entrypoints@0.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-github3-py-1.0.0a4",
+        "name": "pip:github3-py",
+        "versionInfo": "1.0.0a4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/github3-py@1.0.0a4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-idna-2.10",
+        "name": "pip:idna",
+        "versionInfo": "2.10",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/idna@2.10",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-ipykernel-5.5.3",
+        "name": "pip:ipykernel",
+        "versionInfo": "5.5.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/ipykernel@5.5.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-ipython-7.23.0",
+        "name": "pip:ipython",
+        "versionInfo": "7.23.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/ipython@7.23.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-ipython-genutils-0.2.0",
+        "name": "pip:ipython-genutils",
+        "versionInfo": "0.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/ipython-genutils@0.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-ipywidgets-7.6.3",
+        "name": "pip:ipywidgets",
+        "versionInfo": "7.6.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/ipywidgets@7.6.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jedi-0.18.0",
+        "name": "pip:jedi",
+        "versionInfo": "0.18.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jedi@0.18.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jinja2-2.11.3",
+        "name": "pip:jinja2",
+        "versionInfo": "2.11.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jinja2@2.11.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jsonschema-3.2.0",
+        "name": "pip:jsonschema",
+        "versionInfo": "3.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jsonschema@3.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jsonstreams-0.4.1",
+        "name": "pip:jsonstreams",
+        "versionInfo": "0.4.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jsonstreams@0.4.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-1.0.0",
+        "name": "pip:jupyter",
+        "versionInfo": "1.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter@1.0.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-client-6.2.0",
+        "name": "pip:jupyter-client",
+        "versionInfo": "6.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter-client@6.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-console-6.4.0",
+        "name": "pip:jupyter-console",
+        "versionInfo": "6.4.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter-console@6.4.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-core-4.7.1",
+        "name": "pip:jupyter-core",
+        "versionInfo": "4.7.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter-core@4.7.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyterlab-pygments-0.1.2",
+        "name": "pip:jupyterlab-pygments",
+        "versionInfo": "0.1.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyterlab-pygments@0.1.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyterlab-widgets-1.0.0",
+        "name": "pip:jupyterlab-widgets",
+        "versionInfo": "1.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyterlab-widgets@1.0.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-markupsafe-1.1.1",
+        "name": "pip:markupsafe",
+        "versionInfo": "1.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/markupsafe@1.1.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-matplotlib-inline-0.1.2",
+        "name": "pip:matplotlib-inline",
+        "versionInfo": "0.1.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/matplotlib-inline@0.1.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-mistune-0.8.4",
+        "name": "pip:mistune",
+        "versionInfo": "0.8.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/mistune@0.8.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-nbclient-0.5.3",
+        "name": "pip:nbclient",
+        "versionInfo": "0.5.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/nbclient@0.5.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-nbconvert-6.0.7",
+        "name": "pip:nbconvert",
+        "versionInfo": "6.0.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/nbconvert@6.0.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-nbformat-5.1.3",
+        "name": "pip:nbformat",
+        "versionInfo": "5.1.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/nbformat@5.1.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-nest-asyncio-1.5.1",
+        "name": "pip:nest-asyncio",
+        "versionInfo": "1.5.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/nest-asyncio@1.5.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-notebook-6.3.0",
+        "name": "pip:notebook",
+        "versionInfo": "6.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/notebook@6.3.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-packaging-20.9",
+        "name": "pip:packaging",
+        "versionInfo": "20.9",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause)",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/packaging@20.9",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pandocfilters-1.4.3",
+        "name": "pip:pandocfilters",
+        "versionInfo": "1.4.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pandocfilters@1.4.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-parso-0.8.2",
+        "name": "pip:parso",
+        "versionInfo": "0.8.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/parso@0.8.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pexpect-4.8.0",
+        "name": "pip:pexpect",
+        "versionInfo": "4.8.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "ISC",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pexpect@4.8.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pickleshare-0.7.5",
+        "name": "pip:pickleshare",
+        "versionInfo": "0.7.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pickleshare@0.7.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-prometheus-client-0.10.1",
+        "name": "pip:prometheus-client",
+        "versionInfo": "0.10.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/prometheus-client@0.10.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-prompt-toolkit-3.0.18",
+        "name": "pip:prompt-toolkit",
+        "versionInfo": "3.0.18",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/prompt-toolkit@3.0.18",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-ptyprocess-0.7.0",
+        "name": "pip:ptyprocess",
+        "versionInfo": "0.7.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "ISC",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/ptyprocess@0.7.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-py-1.10.0",
+        "name": "pip:py",
+        "versionInfo": "1.10.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/py@1.10.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pycparser-2.20",
+        "name": "pip:pycparser",
+        "versionInfo": "2.20",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pycparser@2.20",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pygments-2.8.1",
+        "name": "pip:pygments",
+        "versionInfo": "2.8.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pygments@2.8.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyparsing-2.4.7",
+        "name": "pip:pyparsing",
+        "versionInfo": "2.4.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pyparsing@2.4.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyrsistent-0.17.3",
+        "name": "pip:pyrsistent",
+        "versionInfo": "0.17.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pyrsistent@0.17.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-python-dateutil-2.8.1",
+        "name": "pip:python-dateutil",
+        "versionInfo": "2.8.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/python-dateutil@2.8.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pywin32-300",
+        "name": "pip:pywin32",
+        "versionInfo": "300",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "PSF-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pywin32@300",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pywinpty-1.0.1",
+        "name": "pip:pywinpty",
+        "versionInfo": "1.0.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pywinpty@1.0.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyyaml-5.1.2",
+        "name": "pip:pyyaml",
+        "versionInfo": "5.1.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pyyaml@5.1.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyzmq-22.0.3",
+        "name": "pip:pyzmq",
+        "versionInfo": "22.0.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pyzmq@22.0.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-qtconsole-5.0.3",
+        "name": "pip:qtconsole",
+        "versionInfo": "5.0.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/qtconsole@5.0.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-qtpy-1.9.0",
+        "name": "pip:qtpy",
+        "versionInfo": "1.9.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/qtpy@1.9.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-requests-2.25.1",
+        "name": "pip:requests",
+        "versionInfo": "2.25.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/requests@2.25.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-selenium-3.141.0",
+        "name": "pip:selenium",
+        "versionInfo": "3.141.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/selenium@3.141.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-send2trash-1.5.0",
+        "name": "pip:send2trash",
+        "versionInfo": "1.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/send2trash@1.5.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-six-1.15.0",
+        "name": "pip:six",
+        "versionInfo": "1.15.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/six@1.15.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-terminado-0.9.4",
+        "name": "pip:terminado",
+        "versionInfo": "0.9.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/terminado@0.9.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-testpath-0.4.4",
+        "name": "pip:testpath",
+        "versionInfo": "0.4.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/testpath@0.4.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-tinydb-3.2.1",
+        "name": "pip:tinydb",
+        "versionInfo": "3.2.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/tinydb@3.2.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-tornado-6.1",
+        "name": "pip:tornado",
+        "versionInfo": "6.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/tornado@6.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-traitlets-5.0.5",
+        "name": "pip:traitlets",
+        "versionInfo": "5.0.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/traitlets@5.0.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-uritemplate-3.0.1",
+        "name": "pip:uritemplate",
+        "versionInfo": "3.0.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND BSD-3-Clause)",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/uritemplate@3.0.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-uritemplate-py-3.0.2",
+        "name": "pip:uritemplate-py",
+        "versionInfo": "3.0.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0 OR (Apache-2.0 AND BSD-3-Clause)",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/uritemplate-py@3.0.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-urllib3-1.26.4",
+        "name": "pip:urllib3",
+        "versionInfo": "1.26.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/urllib3@1.26.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-wcwidth-0.2.5",
+        "name": "pip:wcwidth",
+        "versionInfo": "0.2.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/wcwidth@0.2.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-webencodings-0.5.1",
+        "name": "pip:webencodings",
+        "versionInfo": "0.5.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/webencodings@0.5.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-widgetsnbextension-3.5.1",
+        "name": "pip:widgetsnbextension",
+        "versionInfo": "3.5.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/widgetsnbextension@3.5.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-argcomplete",
+        "name": "pip:argcomplete",
+        "versionInfo": "^ 1.12.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-arrow",
+        "name": "pip:arrow",
+        "versionInfo": "^ 0.12.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-github-selenium",
+        "name": "pip:github-selenium",
+        "versionInfo": "",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-github3-py",
+        "name": "pip:github3-py",
+        "versionInfo": "< 2.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jsonstreams",
+        "name": "pip:jsonstreams",
+        "versionInfo": "",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter",
+        "name": "pip:jupyter",
+        "versionInfo": "^ 1.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyterlab",
+        "name": "pip:jupyterlab",
+        "versionInfo": "^ 3.0.14",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pytest",
+        "name": "pip:pytest",
+        "versionInfo": "^ 6.2.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-python",
+        "name": "pip:python",
+        "versionInfo": "^ 3.8",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyyaml",
+        "name": "pip:pyyaml",
+        "versionInfo": "",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-tinydb",
+        "name": "pip:tinydb",
+        "versionInfo": "",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "NOASSERTION",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION"
+      },
+      {
+        "SPDXID": "SPDXRef-pip-anyio-2.2.0",
+        "name": "pip:anyio",
+        "versionInfo": "2.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/anyio@2.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-atomicwrites-1.4.0",
+        "name": "pip:atomicwrites",
+        "versionInfo": "1.4.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/atomicwrites@1.4.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-babel-2.9.1",
+        "name": "pip:babel",
+        "versionInfo": "2.9.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/babel@2.9.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-cryptography-3.4.7",
+        "name": "pip:cryptography",
+        "versionInfo": "3.4.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0 AND BSD-3-Clause AND Python-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/cryptography@3.4.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-deprecation-2.1.0",
+        "name": "pip:deprecation",
+        "versionInfo": "2.1.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/deprecation@2.1.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-github3-py-1.3.0",
+        "name": "pip:github3-py",
+        "versionInfo": "1.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/github3-py@1.3.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-iniconfig-1.1.1",
+        "name": "pip:iniconfig",
+        "versionInfo": "1.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/iniconfig@1.1.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-json5-0.9.5",
+        "name": "pip:json5",
+        "versionInfo": "0.9.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/json5@0.9.5",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-packaging-0.9.2",
+        "name": "pip:jupyter-packaging",
+        "versionInfo": "0.9.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter-packaging@0.9.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyter-server-1.6.4",
+        "name": "pip:jupyter-server",
+        "versionInfo": "1.6.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyter-server@1.6.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyterlab-3.0.14",
+        "name": "pip:jupyterlab",
+        "versionInfo": "3.0.14",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyterlab@3.0.14",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jupyterlab-server-2.5.0",
+        "name": "pip:jupyterlab-server",
+        "versionInfo": "2.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jupyterlab-server@2.5.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-jwcrypto-0.8",
+        "name": "pip:jwcrypto",
+        "versionInfo": "0.8",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "LGPL-3.0 AND LGPL-3.0-only",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/jwcrypto@0.8",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-nbclassic-0.2.7",
+        "name": "pip:nbclassic",
+        "versionInfo": "0.2.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/nbclassic@0.2.7",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pluggy-0.13.1",
+        "name": "pip:pluggy",
+        "versionInfo": "0.13.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pluggy@0.13.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pytest-6.2.3",
+        "name": "pip:pytest",
+        "versionInfo": "6.2.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pytest@6.2.3",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pytz-2021.1",
+        "name": "pip:pytz",
+        "versionInfo": "2021.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pytz@2021.1",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-pyyaml-5.4",
+        "name": "pip:pyyaml",
+        "versionInfo": "5.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/pyyaml@5.4",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-sniffio-1.2.0",
+        "name": "pip:sniffio",
+        "versionInfo": "1.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "(Apache-2.0 AND BSD-3-Clause) OR (Apache-2.0 AND MIT)",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/sniffio@1.2.0",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-toml-0.10.2",
+        "name": "pip:toml",
+        "versionInfo": "0.10.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/toml@0.10.2",
+            "referenceType": "purl"
+          }
+        ]
+      },
+      {
+        "SPDXID": "SPDXRef-pip-tomlkit-0.7.0",
+        "name": "pip:tomlkit",
+        "versionInfo": "0.7.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "licenseDeclared": "NOASSERTION",
+        "supplier": "NOASSERTION",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceLocator": "pkg:pypi/tomlkit@0.7.0",
+            "referenceType": "purl"
+          }
+        ]
+      }
+    ]
+  }
+}
