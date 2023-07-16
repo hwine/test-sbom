@@ -3,7 +3,7 @@
     "SPDXID": "SPDXRef-DOCUMENT",
     "spdxVersion": "SPDX-2.3",
     "creationInfo": {
-      "created": "2023-07-16T17:01:55Z",
+      "created": "2023-07-16T18:49:28Z",
       "creators": [
         "Tool: GitHub.com-Dependency-Graph"
       ]
@@ -13,7 +13,7 @@
     "documentDescribes": [
       "SPDXRef-com.github.mozilla-kitsune"
     ],
-    "documentNamespace": "https://github.com/mozilla/kitsune/dependency_graph/sbom-830766e412a5624d",
+    "documentNamespace": "https://github.com/mozilla/kitsune/dependency_graph/sbom-0031c4665a426172",
     "packages": [
       {
         "SPDXID": "SPDXRef-com.github.mozilla-kitsune",

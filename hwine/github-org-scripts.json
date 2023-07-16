@@ -3,7 +3,7 @@
     "SPDXID": "SPDXRef-DOCUMENT",
     "spdxVersion": "SPDX-2.3",
     "creationInfo": {
-      "created": "2023-07-16T17:01:54Z",
+      "created": "2023-07-16T18:49:28Z",
       "creators": [
         "Tool: GitHub.com-Dependency-Graph"
       ]
@@ -13,7 +13,7 @@
     "documentDescribes": [
       "SPDXRef-com.github.hwine-github-org-scripts"
     ],
-    "documentNamespace": "https://github.com/hwine/github-org-scripts/dependency_graph/sbom-4b2e9099f050d8fe",
+    "documentNamespace": "https://github.com/hwine/github-org-scripts/dependency_graph/sbom-c3b7893eeca2d951",
     "packages": [
       {
         "SPDXID": "SPDXRef-com.github.hwine-github-org-scripts",
