@@ -23,7 +23,7 @@ jobs:
 ##      with:
 ##        name: all-repos-sboms
 ##        path: sboms
-    - name pretty print the JSON
+    - name: pretty print the JSON
       run: |
         for d in $(find sboms -type d); do
           mkdir -p ${d#*/}
