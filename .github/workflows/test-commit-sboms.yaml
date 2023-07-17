@@ -28,8 +28,10 @@ jobs:
         for d in $(find wip -type d); do
           mkdir -p ${d#*/}
         done
+        # GitHub output wraps the SYFT SBOM inside a "sbom" property. Strip
+        # that as we format
         for f in $(find wip -type f) ; do
-          jq . "$f" > "${f#*/}"
+          jq .sbom "$f" > "${f#*/}"
         done
 
     - name: commit any changes
