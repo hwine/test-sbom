@@ -18,17 +18,12 @@ jobs:
         repo_list_path: repo-list.txt
         save_directory_path: wip
         github_token: ${{ secrets.GITHUB_TOKEN }}
-##    - name: upload
-##      uses: actions/upload-artifact@v3
-##      with:
-##        name: all-repos-sboms
-##        path: sboms
     - name: pretty print the JSON
       run: |
         for d in $(find wip -type d); do
           mkdir -p ${d#*/}
         done
-        # GitHub output wraps the SYFT SBOM inside a "sbom" property. Strip
+        # GitHub output wraps the SPDX SBOM inside a "sbom" property. Strip
         # that as we format
         for f in $(find wip -type f) ; do
           jq .sbom "$f" > "${f#*/}"

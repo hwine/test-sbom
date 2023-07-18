@@ -1,2 +1,14 @@
-hwine/github-org-scripts
-mozilla/kitsune
+mozilla/blurts-server
+mozilla/gecko-dev
+mozilla/hubs
+mozilla/fxa
+mozilla/pontoon
+mozilla/application-services
+mozilla/glean_parser
+mozilla/bedrock
+mozilla/community-tc-config
+mozilla/pdf.js
+mozilla/addons-server
+mozilla/addons-frontend
+mozilla/addons
+mozilla/treeherder
