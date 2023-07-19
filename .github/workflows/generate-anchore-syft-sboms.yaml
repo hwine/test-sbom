@@ -16,6 +16,8 @@ jobs:
       run: |
         echo "HOME=$HOME"
         echo "\${{ env.HOME }}=${{ env.HOME }}"
+        env
+        pwd
         false  # fail
 
     - name: checkout target repo
