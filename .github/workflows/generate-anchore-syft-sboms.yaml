@@ -25,19 +25,15 @@ jobs:
       uses: anchore/sbom-action@v0
       with:
         path: ./wip/target/
+        artifact-name: ./wip/mozilla-kitsune.json
         # repo_list_path: repo-list.txt
         # save_directory_path: wip
         # github_token: ${{ secrets.GITHUB_TOKEN }}
-    # - name: pretty print the JSON
-    #   run: |
-    #     for d in $(find wip -type d); do
-    #       mkdir -p ${d#*/}
-    #     done
-    #     # GitHub output wraps the SPDX SBOM inside a "sbom" property. Strip
-    #     # that as we format
-    #     for f in $(find wip -type f) ; do
-    #       jq .sbom "$f" > "${f#*/}"
-    #     done
+
+    - name: move the anchore files to their final spot
+      run: |
+        mkdir -p anchore-syft/mozilla
+        mv ./wip/mozilla-kitsune.json anchore-syft/mozilla/kitsune.json
 
     # - name: commit any changes
     #   run: |
