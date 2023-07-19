@@ -14,7 +14,10 @@ _[Routhly - details will be in issues.]_
 
 ### GitHub SBOMS
 
-The workflow [workflow](.github/workflows/generate-and-commit-github-sboms.yaml) uses existing GitHub Actions to capture the current GitHub generatated SBOM for various repositories. The output is then pretty printed into a file and committed to the repository as `{organization_name}/{repository_name}.json`.
+The workflow [workflow](.github/workflows/generate-and-commit-github-sboms.yaml)
+uses existing GitHub Actions to capture the current GitHub generatated SBOM for
+various repositories. The output is then pretty printed into a file and
+committed to the repository as `{organization_name}/{repository_name}.json`.
 
 Known limitations:
 - SBOM is tracked by name, which can by changed by admins
