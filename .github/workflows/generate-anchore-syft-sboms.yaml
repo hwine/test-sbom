@@ -16,7 +16,6 @@ jobs:
       run: |
         echo "HOME=$HOME"
         echo "\${{ env.HOME }}=${{ env.HOME }}"
-        echo "\${{ HOME }}=${{ HOME }}"
         env | sort
         env | sort | grep test-sbom
         pwd
