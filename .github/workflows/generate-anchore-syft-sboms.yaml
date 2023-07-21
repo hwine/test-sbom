@@ -18,15 +18,22 @@ jobs:
         echo "{{ env.HOME }}=${{ env.HOME }}"
         echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
         echo "{{ env.GITHUB_WORKSPACE }}=${{ env.GITHUB_WORKSPACE }}"
-        set -x
         export BASE_DIR=$(pwd)
         echo BASE_DIR=$BASE_DIR >> $GITHUB_ENV
         echo "BASE_DIR=$BASE_DIR"
         echo "{{ env.BASE_DIR }}=${{ env.BASE_DIR }}"
-        false  # fail
+        # false  # fail
     #     env | sort
     #     env | sort | grep test-sbom
     #     pwd
+
+    - name: see if env set in following step
+      run: |
+        echo "BASE_DIR=$BASE_DIR"
+        echo "{{ env.BASE_DIR }}=${{ env.BASE_DIR }}"
+        env | grep BASE || true
+        false  # terminate run
+
 
     - name: checkout target repo
       run: |
