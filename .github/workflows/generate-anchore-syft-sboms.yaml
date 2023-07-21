@@ -18,6 +18,9 @@ jobs:
         echo "{{ env.HOME }}=${{ env.HOME }}"
         echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
         echo "{{ env.GITHUB_WORKSPACE }}=${{ env.GITHUB_WORKSPACE }}"
+        echo BASE_DIR=$(pwd) >> $GITHUB_ENV
+        echo "BASE_DIR=$BASE_DIR"
+        echo "{{ env.BASE_DIR }}=${{ env.BASE_DIR }}"
         # false  # fail
     #     env | sort
     #     env | sort | grep test-sbom
