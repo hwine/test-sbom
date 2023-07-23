@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:48Z",
+    "created": "2023-07-23T19:00:28Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-gecko-dev"
   ],
-  "documentNamespace": "https://github.com/mozilla/gecko-dev/dependency_graph/sbom-3ce0c2ca7f84db46",
+  "documentNamespace": "https://github.com/mozilla/gecko-dev/dependency_graph/sbom-0038331087468b31",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-gecko-dev",
@@ -47167,7 +47167,7 @@
       "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -52782,18 +52782,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-types-setuptools-67.8.0.0",
+      "SPDXID": "SPDXRef-pip-types-setuptools-68.0.0.2",
       "name": "pip:types-setuptools",
-      "versionInfo": "67.8.0.0",
+      "versionInfo": "68.0.0.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/types-setuptools@67.8.0.0",
+          "referenceLocator": "pkg:pypi/types-setuptools@68.0.0.2",
           "referenceType": "purl"
         }
       ]
@@ -52952,18 +52952,35 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-taskcluster-52.0.0",
-      "name": "pip:taskcluster",
-      "versionInfo": "52.0.0",
+      "SPDXID": "SPDXRef-pip-pyyaml-6.0.1",
+      "name": "pip:pyyaml",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MPL-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/taskcluster@52.0.0",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pip-taskcluster-54.4.0",
+      "name": "pip:taskcluster",
+      "versionInfo": "54.4.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/taskcluster@54.4.0",
           "referenceType": "purl"
         }
       ]
@@ -53156,18 +53173,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-ua-parser-0.16.1",
+      "SPDXID": "SPDXRef-pip-ua-parser-0.18.0",
       "name": "pip:ua-parser",
-      "versionInfo": "0.16.1",
+      "versionInfo": "0.18.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/ua-parser@0.16.1",
+          "referenceLocator": "pkg:pypi/ua-parser@0.18.0",
           "referenceType": "purl"
         }
       ]
@@ -53275,18 +53292,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-mozprocess-1.3.0",
+      "SPDXID": "SPDXRef-pip-mozprocess-1.3.1",
       "name": "pip:mozprocess",
-      "versionInfo": "1.3.0",
+      "versionInfo": "1.3.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MPL-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/mozprocess@1.3.0",
+          "referenceLocator": "pkg:pypi/mozprocess@1.3.1",
           "referenceType": "purl"
         }
       ]
@@ -53309,18 +53326,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-urllib3-2.0.3",
+      "SPDXID": "SPDXRef-pip-urllib3-2.0.4",
       "name": "pip:urllib3",
-      "versionInfo": "2.0.3",
+      "versionInfo": "2.0.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/urllib3@2.0.3",
+          "referenceLocator": "pkg:pypi/urllib3@2.0.4",
           "referenceType": "purl"
         }
       ]
@@ -53377,9 +53394,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-mozdevice-4.1.0",
+      "SPDXID": "SPDXRef-pip-mozdevice-4.1.1",
       "name": "pip:mozdevice",
-      "versionInfo": "4.1.0",
+      "versionInfo": "4.1.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -53388,7 +53405,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/mozdevice@4.1.0",
+          "referenceLocator": "pkg:pypi/mozdevice@4.1.1",
           "referenceType": "purl"
         }
       ]
@@ -69756,6 +69773,36 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-rust-goblin",
+      "name": "rust:goblin",
+      "versionInfo": ">= 0.7.0,< 0.8.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-rust-indexmap",
+      "name": "rust:indexmap",
+      "versionInfo": ">= 1.9.3,< 2.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-rust-memoffset",
+      "name": "rust:memoffset",
+      "versionInfo": ">= 0.9.0,< 0.10.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
       "SPDXID": "SPDXRef-rust-nix",
       "name": "rust:nix",
       "versionInfo": ">= 0.26.0,< 0.27.0",
@@ -69786,9 +69833,9 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-rust-parking-lot",
-      "name": "rust:parking_lot",
-      "versionInfo": ">= 0.11.0,< 0.12.0",
+      "SPDXID": "SPDXRef-rust-redox-syscall",
+      "name": "rust:redox_syscall",
+      "versionInfo": ">= 0.3.0,< 0.4.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -69819,6 +69866,26 @@
       "SPDXID": "SPDXRef-rust-wasi",
       "name": "rust:wasi",
       "versionInfo": ">= 0.11.0,< 0.12.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-rust-quote",
+      "name": "rust:quote",
+      "versionInfo": ">= 1.0.0,< 2.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-rust-syn",
+      "name": "rust:syn",
+      "versionInfo": ">= 2.0.0,< 3.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -69936,16 +70003,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-rust-indexmap",
-      "name": "rust:indexmap",
-      "versionInfo": ">= 1.0.0,< 2.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-rust-libc",
       "name": "rust:libc",
       "versionInfo": ">= 0.2.0,< 0.3.0",
@@ -70016,16 +70073,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-rust-quote",
-      "name": "rust:quote",
-      "versionInfo": ">= 1.0.0,< 2.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-rust-regex",
       "name": "rust:regex",
       "versionInfo": ">= 1.0.0,< 2.0.0",
@@ -70068,16 +70115,6 @@
     {
       "SPDXID": "SPDXRef-rust-serde-json",
       "name": "rust:serde_json",
-      "versionInfo": ">= 1.0.0,< 2.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-rust-syn",
-      "name": "rust:syn",
       "versionInfo": ">= 1.0.0,< 2.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
@@ -70439,6 +70476,16 @@
       "SPDXID": "SPDXRef-rust-webrender",
       "name": "rust:webrender",
       "versionInfo": ">= 0.62.0,< 0.63.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-rust-parking-lot",
+      "name": "rust:parking_lot",
+      "versionInfo": ">= 0.12.0,< 0.13.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -71028,7 +71075,7 @@
     {
       "SPDXID": "SPDXRef-rust-wasm-smith",
       "name": "rust:wasm-smith",
-      "versionInfo": ">= 0.12.10,< 0.13.0",
+      "versionInfo": ">= 0.12.12,< 0.13.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -71906,16 +71953,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-rust-goblin",
-      "name": "rust:goblin",
-      "versionInfo": ">= 0.6.0,< 0.7.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-rust-mach2",
       "name": "rust:mach2",
       "versionInfo": ">= 0.4.0,< 0.5.0",
@@ -71926,19 +71963,9 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-rust-memoffset",
-      "name": "rust:memoffset",
-      "versionInfo": ">= 0.8.0,< 0.9.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-rust-crash-context",
       "name": "rust:crash-context",
-      "versionInfo": ">= 0.6.0,< 0.7.0",
+      "versionInfo": ">= 0.6.1,< 0.7.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -71948,7 +71975,7 @@
     {
       "SPDXID": "SPDXRef-rust-minidump-writer",
       "name": "rust:minidump-writer",
-      "versionInfo": ">= 0.8.0,< 0.9.0",
+      "versionInfo": ">= 0.8.1,< 0.9.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -73435,9 +73462,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-crash-context-0.6.0",
+      "SPDXID": "SPDXRef-rust-crash-context-0.6.1",
       "name": "rust:crash-context",
-      "versionInfo": "0.6.0",
+      "versionInfo": "0.6.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT OR Apache-2.0",
@@ -73446,7 +73473,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/crash-context@0.6.0",
+          "referenceLocator": "pkg:cargo/crash-context@0.6.1",
           "referenceType": "purl"
         }
       ]
@@ -73741,9 +73768,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-d3d12-0.6.0",
+      "SPDXID": "SPDXRef-rust-d3d12-0.7.0",
       "name": "rust:d3d12",
-      "versionInfo": "0.6.0",
+      "versionInfo": "0.7.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT OR Apache-2.0",
@@ -73752,7 +73779,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/d3d12@0.6.0",
+          "referenceLocator": "pkg:cargo/d3d12@0.7.0",
           "referenceType": "purl"
         }
       ]
@@ -75033,9 +75060,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-goblin-0.6.0",
+      "SPDXID": "SPDXRef-rust-goblin-0.7.1",
       "name": "rust:goblin",
-      "versionInfo": "0.6.0",
+      "versionInfo": "0.7.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -75044,7 +75071,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/goblin@0.6.0",
+          "referenceLocator": "pkg:cargo/goblin@0.7.1",
           "referenceType": "purl"
         }
       ]
@@ -75441,9 +75468,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-indexmap-1.9.2",
+      "SPDXID": "SPDXRef-rust-indexmap-1.9.3",
       "name": "rust:indexmap",
-      "versionInfo": "1.9.2",
+      "versionInfo": "1.9.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0 OR MIT",
@@ -75452,7 +75479,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/indexmap@1.9.2",
+          "referenceLocator": "pkg:cargo/indexmap@1.9.3",
           "referenceType": "purl"
         }
       ]
@@ -76206,9 +76233,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-memoffset-0.8.0",
+      "SPDXID": "SPDXRef-rust-memoffset-0.9.0",
       "name": "rust:memoffset",
-      "versionInfo": "0.8.0",
+      "versionInfo": "0.9.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -76217,7 +76244,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/memoffset@0.8.0",
+          "referenceLocator": "pkg:cargo/memoffset@0.9.0",
           "referenceType": "purl"
         }
       ]
@@ -76291,9 +76318,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-minidump-common-0.15.2",
+      "SPDXID": "SPDXRef-rust-minidump-common-0.17.0",
       "name": "rust:minidump-common",
-      "versionInfo": "0.15.2",
+      "versionInfo": "0.17.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -76302,15 +76329,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/minidump-common@0.15.2",
+          "referenceLocator": "pkg:cargo/minidump-common@0.17.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-minidump-writer-0.8.0",
+      "SPDXID": "SPDXRef-rust-minidump-writer-0.8.1",
       "name": "rust:minidump-writer",
-      "versionInfo": "0.8.0",
+      "versionInfo": "0.8.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -76319,7 +76346,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/minidump-writer@0.8.0",
+          "referenceLocator": "pkg:cargo/minidump-writer@0.8.1",
           "referenceType": "purl"
         }
       ]
@@ -76903,35 +76930,35 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-parking-lot-0.11.2",
+      "SPDXID": "SPDXRef-rust-parking-lot-0.12.1",
       "name": "rust:parking_lot",
-      "versionInfo": "0.11.2",
+      "versionInfo": "0.12.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseConcluded": "MIT OR Apache-2.0",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/parking_lot@0.11.2",
+          "referenceLocator": "pkg:cargo/parking_lot@0.12.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-parking-lot-core-0.8.6",
+      "SPDXID": "SPDXRef-rust-parking-lot-core-0.9.8",
       "name": "rust:parking_lot_core",
-      "versionInfo": "0.8.6",
+      "versionInfo": "0.9.8",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseConcluded": "MIT OR Apache-2.0",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/parking_lot_core@0.8.6",
+          "referenceLocator": "pkg:cargo/parking_lot_core@0.9.8",
           "referenceType": "purl"
         }
       ]
@@ -77294,6 +77321,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-rust-procfs-core-0.16.0-RC1",
+      "name": "rust:procfs-core",
+      "versionInfo": "0.16.0-RC1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:cargo/procfs-core@0.16.0-RC1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-rust-profiling-1.0.7",
       "name": "rust:profiling",
       "versionInfo": "1.0.7",
@@ -77561,23 +77605,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:cargo/rayon-core@1.11.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-rust-redox-syscall-0.2.16",
-      "name": "rust:redox_syscall",
-      "versionInfo": "0.2.16",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/redox_syscall@0.2.16",
           "referenceType": "purl"
         }
       ]
@@ -79572,9 +79599,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-wasm-encoder-0.29.0",
+      "SPDXID": "SPDXRef-rust-wasm-encoder-0.31.0",
       "name": "rust:wasm-encoder",
-      "versionInfo": "0.29.0",
+      "versionInfo": "0.31.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0 WITH LLVM-exception",
@@ -79583,15 +79610,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/wasm-encoder@0.29.0",
+          "referenceLocator": "pkg:cargo/wasm-encoder@0.31.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-wasm-smith-0.12.10",
+      "SPDXID": "SPDXRef-rust-wasm-smith-0.12.12",
       "name": "rust:wasm-smith",
-      "versionInfo": "0.12.10",
+      "versionInfo": "0.12.12",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0 WITH LLVM-exception",
@@ -79600,15 +79627,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/wasm-smith@0.12.10",
+          "referenceLocator": "pkg:cargo/wasm-smith@0.12.12",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-wasmparser-0.107.0",
+      "SPDXID": "SPDXRef-rust-wasmparser-0.109.0",
       "name": "rust:wasmparser",
-      "versionInfo": "0.107.0",
+      "versionInfo": "0.109.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0 WITH LLVM-exception",
@@ -79617,15 +79644,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/wasmparser@0.107.0",
+          "referenceLocator": "pkg:cargo/wasmparser@0.109.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-wast-60.0.0",
+      "SPDXID": "SPDXRef-rust-wast-62.0.0",
       "name": "rust:wast",
-      "versionInfo": "60.0.0",
+      "versionInfo": "62.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0 WITH LLVM-exception",
@@ -79634,7 +79661,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/wast@60.0.0",
+          "referenceLocator": "pkg:cargo/wast@62.0.0",
           "referenceType": "purl"
         }
       ]
@@ -81323,6 +81350,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-rust-goblin-0.6.0",
+      "name": "rust:goblin",
+      "versionInfo": "0.6.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:cargo/goblin@0.6.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-rust-hashbrown-0.11.2",
       "name": "rust:hashbrown",
       "versionInfo": "0.11.2",
@@ -82292,18 +82336,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-parking-lot-0.12.1",
+      "SPDXID": "SPDXRef-rust-parking-lot-0.11.2",
       "name": "rust:parking_lot",
-      "versionInfo": "0.12.1",
+      "versionInfo": "0.11.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseConcluded": "Apache-2.0 OR MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/parking_lot@0.12.1",
+          "referenceLocator": "pkg:cargo/parking_lot@0.11.2",
           "referenceType": "purl"
         }
       ]

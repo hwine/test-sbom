@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:49Z",
+    "created": "2023-07-23T19:00:29Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-fxa"
   ],
-  "documentNamespace": "https://github.com/mozilla/fxa/dependency_graph/sbom-ec3f746f987a253e",
+  "documentNamespace": "https://github.com/mozilla/fxa/dependency_graph/sbom-4dadd8722edeb68a",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-fxa",
@@ -28,6 +28,26 @@
       "SPDXID": "SPDXRef-npm-faker-js-faker",
       "name": "npm:@faker-js/faker",
       "versionInfo": "^ 8.0.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-fluent-react",
+      "name": "npm:@fluent/react",
+      "versionInfo": "^ 0.15.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-eslint-plugin",
+      "name": "npm:@nx/eslint-plugin",
+      "versionInfo": "^ 16.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -54,7 +74,17 @@
     {
       "SPDXID": "SPDXRef-npm-nx-js",
       "name": "npm:@nx/js",
-      "versionInfo": "^ 16.3.1",
+      "versionInfo": "^ 16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-next",
+      "name": "npm:@nx/next",
+      "versionInfo": "^ 16.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -70,6 +100,23 @@
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-react-16.3.2",
+      "name": "npm:@nx/react",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/react@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
     },
     {
       "SPDXID": "SPDXRef-npm-nx-workspace-16.5.2",
@@ -109,6 +156,16 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-testing-library-react",
+      "name": "npm:@testing-library/react",
+      "versionInfo": "^ 14.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
       "SPDXID": "SPDXRef-npm-types-jest",
       "name": "npm:@types/jest",
       "versionInfo": "^ 29.5.1",
@@ -139,6 +196,36 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-types-react",
+      "name": "npm:@types/react",
+      "versionInfo": "^ 18",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-types-react-dom",
+      "name": "npm:@types/react-dom",
+      "versionInfo": "^ 18",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-types-react-test-renderer",
+      "name": "npm:@types/react-test-renderer",
+      "versionInfo": "^ 18",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
       "SPDXID": "SPDXRef-npm-typescript-eslint-eslint-plugin",
       "name": "npm:@typescript-eslint/eslint-plugin",
       "versionInfo": "^ 5.59.1",
@@ -152,6 +239,26 @@
       "SPDXID": "SPDXRef-npm-typescript-eslint-parser",
       "name": "npm:@typescript-eslint/parser",
       "versionInfo": "^ 5.59.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-autoprefixer",
+      "name": "npm:autoprefixer",
+      "versionInfo": "^ 10.4.14",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-babel-jest",
+      "name": "npm:babel-jest",
+      "versionInfo": "^ 29.4.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -179,6 +286,40 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-eslint-config-next-13.4.1",
+      "name": "npm:eslint-config-next",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-config-next@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-eslint-plugin-import-2.27.5",
+      "name": "npm:eslint-plugin-import",
+      "versionInfo": "2.27.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-plugin-import@2.27.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-eslint-plugin-jest",
       "name": "npm:eslint-plugin-jest",
       "versionInfo": "^ 27.2.1",
@@ -189,6 +330,23 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-eslint-plugin-jsx-a11y-6.7.1",
+      "name": "npm:eslint-plugin-jsx-a11y",
+      "versionInfo": "6.7.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-plugin-jsx-a11y@6.7.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-eslint-plugin-react",
       "name": "npm:eslint-plugin-react",
       "versionInfo": "^ 7.32.2",
@@ -197,6 +355,23 @@
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-eslint-plugin-react-hooks-4.6.0",
+      "name": "npm:eslint-plugin-react-hooks",
+      "versionInfo": "4.6.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-plugin-react-hooks@4.6.0",
+          "referenceType": "purl"
+        }
+      ]
     },
     {
       "SPDXID": "SPDXRef-npm-husky",
@@ -299,6 +474,23 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-next-13.4.1",
+      "name": "npm:next",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/next@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-node-fetch",
       "name": "npm:node-fetch",
       "versionInfo": "^ 2.6.7",
@@ -388,7 +580,7 @@
     {
       "SPDXID": "SPDXRef-npm-postcss",
       "name": "npm:postcss",
-      "versionInfo": "^ 8.4.14",
+      "versionInfo": "^ 8.4.26",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -406,9 +598,39 @@
       "supplier": "NOASSERTION"
     },
     {
+      "SPDXID": "SPDXRef-npm-react",
+      "name": "npm:react",
+      "versionInfo": "^ 18.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-react-dom",
+      "name": "npm:react-dom",
+      "versionInfo": "^ 18.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
       "SPDXID": "SPDXRef-npm-react-ga4",
       "name": "npm:react-ga4",
       "versionInfo": "^ 2.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-react-test-renderer",
+      "name": "npm:react-test-renderer",
+      "versionInfo": "^ 18.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -459,6 +681,16 @@
       "SPDXID": "SPDXRef-npm-stylelint-config-recommended-scss",
       "name": "npm:stylelint-config-recommended-scss",
       "versionInfo": "^ 12.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-tailwindcss",
+      "name": "npm:tailwindcss",
+      "versionInfo": "^ 3.3.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -1025,16 +1257,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-npm-testing-library-react",
-      "name": "npm:@testing-library/react",
-      "versionInfo": "^ 12.1.5",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-npm-types-chance",
       "name": "npm:@types/chance",
       "versionInfo": "^ 1.1.2",
@@ -1122,16 +1344,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react",
-      "name": "npm:@types/react",
-      "versionInfo": "^ 17.0.14",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-npm-types-serve-static-1.13.9",
       "name": "npm:@types/serve-static",
       "versionInfo": "1.13.9",
@@ -1152,16 +1364,6 @@
       "SPDXID": "SPDXRef-npm-types-supertest",
       "name": "npm:@types/supertest",
       "versionInfo": "^ 2.0.11",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-npm-autoprefixer",
-      "name": "npm:autoprefixer",
-      "versionInfo": "^ 10.4.7",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -1283,26 +1485,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-npm-react",
-      "name": "npm:react",
-      "versionInfo": "^ 16.13.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-npm-react-dom",
-      "name": "npm:react-dom",
-      "versionInfo": "^ 16.13.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-npm-react-router-dom",
       "name": "npm:react-router-dom",
       "versionInfo": "^ 6.9.0",
@@ -1336,16 +1518,6 @@
       "SPDXID": "SPDXRef-npm-supertest",
       "name": "npm:supertest",
       "versionInfo": "^ 6.3.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-npm-tailwindcss",
-      "name": "npm:tailwindcss",
-      "versionInfo": "^ 3.3.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -1772,7 +1944,7 @@
     {
       "SPDXID": "SPDXRef-npm-babel-preset-env",
       "name": "npm:@babel/preset-env",
-      "versionInfo": "^ 7.22.5",
+      "versionInfo": "^ 7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -2157,16 +2329,6 @@
       "SPDXID": "SPDXRef-npm-types-nodemailer",
       "name": "npm:@types/nodemailer",
       "versionInfo": "^ 6.4.2",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-npm-types-react-dom",
-      "name": "npm:@types/react-dom",
-      "versionInfo": "^ 18",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -2647,7 +2809,7 @@
     {
       "SPDXID": "SPDXRef-npm-jose",
       "name": "npm:jose",
-      "versionInfo": "^ 4.13.1",
+      "versionInfo": "^ 4.14.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -3245,7 +3407,7 @@
     {
       "SPDXID": "SPDXRef-npm-ws",
       "name": "npm:ws",
-      "versionInfo": "^ 8.11.0",
+      "versionInfo": "^ 8.13.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -5180,16 +5342,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-npm-fluent-react",
-      "name": "npm:@fluent/react",
-      "versionInfo": "^ 0.14.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-npm-rescripts-cli",
       "name": "npm:@rescripts/cli",
       "versionInfo": "~ 0.0.16",
@@ -5242,7 +5394,7 @@
     {
       "SPDXID": "SPDXRef-npm-storybook-preset-create-react-app",
       "name": "npm:@storybook/preset-create-react-app",
-      "versionInfo": "^ 7.0.23",
+      "versionInfo": "^ 7.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -5312,7 +5464,7 @@
     {
       "SPDXID": "SPDXRef-npm-types-react-stripe-elements",
       "name": "npm:@types/react-stripe-elements",
-      "versionInfo": "^ 6.0.5",
+      "versionInfo": "^ 6.0.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -5446,7 +5598,7 @@
     {
       "SPDXID": "SPDXRef-npm-react-redux",
       "name": "npm:react-redux",
-      "versionInfo": "^ 8.0.2",
+      "versionInfo": "^ 8.1.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -5457,16 +5609,6 @@
       "SPDXID": "SPDXRef-npm-react-stripe-elements",
       "name": "npm:react-stripe-elements",
       "versionInfo": "^ 6.1.2",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
-      "SPDXID": "SPDXRef-npm-react-test-renderer",
-      "name": "npm:react-test-renderer",
-      "versionInfo": "^ 17.0.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -5786,7 +5928,7 @@
     {
       "SPDXID": "SPDXRef-npm-types-react-helmet",
       "name": "npm:@types/react-helmet",
-      "versionInfo": "^ 6.1.2",
+      "versionInfo": "^ 6.1.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -6031,16 +6173,6 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react-test-renderer",
-      "name": "npm:@types/react-test-renderer",
-      "versionInfo": "^ 17.0.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION"
-    },
-    {
       "SPDXID": "SPDXRef-npm-types-react-webcam",
       "name": "npm:@types/react-webcam",
       "versionInfo": "^ 3.0.0",
@@ -6104,6 +6236,16 @@
       "SPDXID": "SPDXRef-npm-fxa-common-password-list",
       "name": "npm:fxa-common-password-list",
       "versionInfo": "^ 0.0.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-npm-fxa-crypto-relier",
+      "name": "npm:fxa-crypto-relier",
+      "versionInfo": "^ 2.7.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -6243,7 +6385,7 @@
     {
       "SPDXID": "SPDXRef-npm-google-cloud-opentelemetry-cloud-trace-exporter",
       "name": "npm:@google-cloud/opentelemetry-cloud-trace-exporter",
-      "versionInfo": "^ 2.0.0",
+      "versionInfo": "^ 2.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -7734,6 +7876,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-babel-compat-data-7.22.9",
+      "name": "npm:@babel/compat-data",
+      "versionInfo": "7.22.9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40babel/compat-data@7.22.9",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-babel-compat-data-7.16.4",
       "name": "npm:@babel/compat-data",
       "versionInfo": "7.16.4",
@@ -8103,6 +8262,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40babel/helper-compilation-targets@7.22.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-babel-helper-compilation-targets-7.22.9",
+      "name": "npm:@babel/helper-compilation-targets",
+      "versionInfo": "7.22.9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40babel/helper-compilation-targets@7.22.9",
           "referenceType": "purl"
         }
       ]
@@ -13259,6 +13435,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-babel-preset-env-7.22.9",
+      "name": "npm:@babel/preset-env",
+      "versionInfo": "7.22.9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40babel/preset-env@7.22.9",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-babel-preset-env-7.16.5",
       "name": "npm:@babel/preset-env",
       "versionInfo": "7.16.5",
@@ -15707,9 +15900,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-fluent-react-0.14.1",
+      "SPDXID": "SPDXRef-npm-fluent-react-0.15.1",
       "name": "npm:@fluent/react",
-      "versionInfo": "0.14.1",
+      "versionInfo": "0.15.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -15718,15 +15911,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40fluent/react@0.14.1",
+          "referenceLocator": "pkg:npm/%40fluent/react@0.15.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-fluent-sequence-0.7.0",
+      "SPDXID": "SPDXRef-npm-fluent-sequence-0.8.0",
       "name": "npm:@fluent/sequence",
-      "versionInfo": "0.7.0",
+      "versionInfo": "0.8.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -15735,7 +15928,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40fluent/sequence@0.7.0",
+          "referenceLocator": "pkg:npm/%40fluent/sequence@0.8.0",
           "referenceType": "purl"
         }
       ]
@@ -15877,9 +16070,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-google-cloud-opentelemetry-cloud-trace-exporter-2.0.0",
+      "SPDXID": "SPDXRef-npm-google-cloud-opentelemetry-cloud-trace-exporter-2.1.0",
       "name": "npm:@google-cloud/opentelemetry-cloud-trace-exporter",
-      "versionInfo": "2.0.0",
+      "versionInfo": "2.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -15888,15 +16081,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40google-cloud/opentelemetry-cloud-trace-exporter@2.0.0",
+          "referenceLocator": "pkg:npm/%40google-cloud/opentelemetry-cloud-trace-exporter@2.1.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-google-cloud-opentelemetry-resource-util-2.0.0",
+      "SPDXID": "SPDXRef-npm-google-cloud-opentelemetry-resource-util-2.1.0",
       "name": "npm:@google-cloud/opentelemetry-resource-util",
-      "versionInfo": "2.0.0",
+      "versionInfo": "2.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -15905,7 +16098,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40google-cloud/opentelemetry-resource-util@2.0.0",
+          "referenceLocator": "pkg:npm/%40google-cloud/opentelemetry-resource-util@2.1.0",
           "referenceType": "purl"
         }
       ]
@@ -17934,6 +18127,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-jest-transform-29.6.1",
+      "name": "npm:@jest/transform",
+      "versionInfo": "29.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40jest/transform@29.6.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-jest-transform-27.5.1",
       "name": "npm:@jest/transform",
       "versionInfo": "27.5.1",
@@ -18835,6 +19045,193 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-next-env-13.4.1",
+      "name": "npm:@next/env",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/env@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-eslint-plugin-next-13.4.1",
+      "name": "npm:@next/eslint-plugin-next",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/eslint-plugin-next@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-darwin-arm64-13.4.1",
+      "name": "npm:@next/swc-darwin-arm64",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-darwin-arm64@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-darwin-x64-13.4.1",
+      "name": "npm:@next/swc-darwin-x64",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-darwin-x64@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-linux-arm64-gnu-13.4.1",
+      "name": "npm:@next/swc-linux-arm64-gnu",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-linux-arm64-gnu@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-linux-arm64-musl-13.4.1",
+      "name": "npm:@next/swc-linux-arm64-musl",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-linux-arm64-musl@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-linux-x64-gnu-13.4.1",
+      "name": "npm:@next/swc-linux-x64-gnu",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-linux-x64-gnu@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-linux-x64-musl-13.4.1",
+      "name": "npm:@next/swc-linux-x64-musl",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-linux-x64-musl@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-win32-arm64-msvc-13.4.1",
+      "name": "npm:@next/swc-win32-arm64-msvc",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-win32-arm64-msvc@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-win32-ia32-msvc-13.4.1",
+      "name": "npm:@next/swc-win32-ia32-msvc",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-win32-ia32-msvc@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-next-swc-win32-x64-msvc-13.4.1",
+      "name": "npm:@next/swc-win32-x64-msvc",
+      "versionInfo": "13.4.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40next/swc-win32-x64-msvc@13.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-nicolo-ribaudo-chokidar-2-2.1.8-no-fsevents.3",
       "name": "npm:@nicolo-ribaudo/chokidar-2",
       "versionInfo": "2.1.8-no-fsevents.3",
@@ -19090,23 +19487,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nrwl-devkit-16.5.0",
-      "name": "npm:@nrwl/devkit",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nrwl/devkit@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nrwl-devkit-16.5.2",
       "name": "npm:@nrwl/devkit",
       "versionInfo": "16.5.2",
@@ -19119,6 +19499,57 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nrwl/devkit@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-devkit-16.3.2",
+      "name": "npm:@nrwl/devkit",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/devkit@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-devkit-16.5.3",
+      "name": "npm:@nrwl/devkit",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/devkit@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-eslint-plugin-nx-16.5.3",
+      "name": "npm:@nrwl/eslint-plugin-nx",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/eslint-plugin-nx@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19158,9 +19589,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nrwl-js-16.5.0",
+      "SPDXID": "SPDXRef-npm-nrwl-js-16.3.2",
       "name": "npm:@nrwl/js",
-      "versionInfo": "16.5.0",
+      "versionInfo": "16.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -19169,7 +19600,24 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nrwl/js@16.5.0",
+          "referenceLocator": "pkg:npm/%40nrwl/js@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-js-16.5.3",
+      "name": "npm:@nrwl/js",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/js@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19187,6 +19635,57 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nrwl/linter@16.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-linter-16.3.2",
+      "name": "npm:@nrwl/linter",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/linter@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-linter-16.5.3",
+      "name": "npm:@nrwl/linter",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/linter@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-next-16.5.3",
+      "name": "npm:@nrwl/next",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/next@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19226,6 +19725,40 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-nrwl-react-16.3.2",
+      "name": "npm:@nrwl/react",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/react@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-react-16.5.3",
+      "name": "npm:@nrwl/react",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/react@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-nrwl-tao-16.3.1",
       "name": "npm:@nrwl/tao",
       "versionInfo": "16.3.1",
@@ -19238,23 +19771,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nrwl/tao@16.3.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-nrwl-tao-16.5.0",
-      "name": "npm:@nrwl/tao",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nrwl/tao@16.5.0",
           "referenceType": "purl"
         }
       ]
@@ -19277,6 +19793,74 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-nrwl-tao-16.3.2",
+      "name": "npm:@nrwl/tao",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/tao@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-tao-16.5.3",
+      "name": "npm:@nrwl/tao",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/tao@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-web-16.3.2",
+      "name": "npm:@nrwl/web",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/web@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-web-16.5.3",
+      "name": "npm:@nrwl/web",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/web@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-nrwl-workspace-16.3.1",
       "name": "npm:@nrwl/workspace",
       "versionInfo": "16.3.1",
@@ -19294,23 +19878,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nrwl-workspace-16.5.0",
-      "name": "npm:@nrwl/workspace",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nrwl/workspace@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nrwl-workspace-16.5.2",
       "name": "npm:@nrwl/workspace",
       "versionInfo": "16.5.2",
@@ -19323,6 +19890,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nrwl/workspace@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-workspace-16.3.2",
+      "name": "npm:@nrwl/workspace",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/workspace@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nrwl-workspace-16.5.3",
+      "name": "npm:@nrwl/workspace",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nrwl/workspace@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19362,23 +19963,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-devkit-16.5.0",
-      "name": "npm:@nx/devkit",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/devkit@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-devkit-16.5.2",
       "name": "npm:@nx/devkit",
       "versionInfo": "16.5.2",
@@ -19391,6 +19975,57 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/devkit@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-devkit-16.3.2",
+      "name": "npm:@nx/devkit",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/devkit@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-devkit-16.5.3",
+      "name": "npm:@nx/devkit",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/devkit@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-eslint-plugin-16.5.3",
+      "name": "npm:@nx/eslint-plugin",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/eslint-plugin@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19413,9 +20048,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-js-16.5.0",
+      "SPDXID": "SPDXRef-npm-nx-js-16.3.2",
       "name": "npm:@nx/js",
-      "versionInfo": "16.5.0",
+      "versionInfo": "16.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -19424,7 +20059,24 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/js@16.5.0",
+          "referenceLocator": "pkg:npm/%40nx/js@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-js-16.5.3",
+      "name": "npm:@nx/js",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/js@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19442,6 +20094,57 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/linter@16.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-linter-16.3.2",
+      "name": "npm:@nx/linter",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/linter@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-linter-16.5.3",
+      "name": "npm:@nx/linter",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/linter@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-next-16.5.3",
+      "name": "npm:@nx/next",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/next@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19481,23 +20184,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-darwin-arm64-16.5.0",
-      "name": "npm:@nx/nx-darwin-arm64",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-darwin-arm64@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-darwin-arm64-16.5.2",
       "name": "npm:@nx/nx-darwin-arm64",
       "versionInfo": "16.5.2",
@@ -19510,6 +20196,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-darwin-arm64@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-darwin-arm64-16.3.2",
+      "name": "npm:@nx/nx-darwin-arm64",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-darwin-arm64@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-darwin-arm64-16.5.3",
+      "name": "npm:@nx/nx-darwin-arm64",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-darwin-arm64@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19532,23 +20252,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-darwin-x64-16.5.0",
-      "name": "npm:@nx/nx-darwin-x64",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-darwin-x64@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-darwin-x64-16.5.2",
       "name": "npm:@nx/nx-darwin-x64",
       "versionInfo": "16.5.2",
@@ -19561,6 +20264,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-darwin-x64@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-darwin-x64-16.3.2",
+      "name": "npm:@nx/nx-darwin-x64",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-darwin-x64@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-darwin-x64-16.5.3",
+      "name": "npm:@nx/nx-darwin-x64",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-darwin-x64@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19583,23 +20320,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-freebsd-x64-16.5.0",
-      "name": "npm:@nx/nx-freebsd-x64",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-freebsd-x64@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-freebsd-x64-16.5.2",
       "name": "npm:@nx/nx-freebsd-x64",
       "versionInfo": "16.5.2",
@@ -19612,6 +20332,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-freebsd-x64@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-freebsd-x64-16.3.2",
+      "name": "npm:@nx/nx-freebsd-x64",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-freebsd-x64@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-freebsd-x64-16.5.3",
+      "name": "npm:@nx/nx-freebsd-x64",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-freebsd-x64@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19634,23 +20388,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm-gnueabihf-16.5.0",
-      "name": "npm:@nx/nx-linux-arm-gnueabihf",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm-gnueabihf@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-linux-arm-gnueabihf-16.5.2",
       "name": "npm:@nx/nx-linux-arm-gnueabihf",
       "versionInfo": "16.5.2",
@@ -19663,6 +20400,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-linux-arm-gnueabihf@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm-gnueabihf-16.3.2",
+      "name": "npm:@nx/nx-linux-arm-gnueabihf",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm-gnueabihf@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm-gnueabihf-16.5.3",
+      "name": "npm:@nx/nx-linux-arm-gnueabihf",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm-gnueabihf@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19685,23 +20456,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-gnu-16.5.0",
-      "name": "npm:@nx/nx-linux-arm64-gnu",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-gnu@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-gnu-16.5.2",
       "name": "npm:@nx/nx-linux-arm64-gnu",
       "versionInfo": "16.5.2",
@@ -19714,6 +20468,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-gnu@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-gnu-16.3.2",
+      "name": "npm:@nx/nx-linux-arm64-gnu",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-gnu@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-gnu-16.5.3",
+      "name": "npm:@nx/nx-linux-arm64-gnu",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-gnu@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19736,23 +20524,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-musl-16.5.0",
-      "name": "npm:@nx/nx-linux-arm64-musl",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-musl@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-musl-16.5.2",
       "name": "npm:@nx/nx-linux-arm64-musl",
       "versionInfo": "16.5.2",
@@ -19765,6 +20536,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-musl@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-musl-16.3.2",
+      "name": "npm:@nx/nx-linux-arm64-musl",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-musl@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-arm64-musl-16.5.3",
+      "name": "npm:@nx/nx-linux-arm64-musl",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-arm64-musl@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19787,23 +20592,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-gnu-16.5.0",
-      "name": "npm:@nx/nx-linux-x64-gnu",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-gnu@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-gnu-16.5.2",
       "name": "npm:@nx/nx-linux-x64-gnu",
       "versionInfo": "16.5.2",
@@ -19816,6 +20604,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-gnu@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-gnu-16.3.2",
+      "name": "npm:@nx/nx-linux-x64-gnu",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-gnu@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-gnu-16.5.3",
+      "name": "npm:@nx/nx-linux-x64-gnu",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-gnu@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19838,23 +20660,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-musl-16.5.0",
-      "name": "npm:@nx/nx-linux-x64-musl",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-musl@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-musl-16.5.2",
       "name": "npm:@nx/nx-linux-x64-musl",
       "versionInfo": "16.5.2",
@@ -19867,6 +20672,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-musl@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-musl-16.3.2",
+      "name": "npm:@nx/nx-linux-x64-musl",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-musl@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-linux-x64-musl-16.5.3",
+      "name": "npm:@nx/nx-linux-x64-musl",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-linux-x64-musl@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19889,23 +20728,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-win32-arm64-msvc-16.5.0",
-      "name": "npm:@nx/nx-win32-arm64-msvc",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-win32-arm64-msvc@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-win32-arm64-msvc-16.5.2",
       "name": "npm:@nx/nx-win32-arm64-msvc",
       "versionInfo": "16.5.2",
@@ -19918,6 +20740,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-win32-arm64-msvc@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-win32-arm64-msvc-16.3.2",
+      "name": "npm:@nx/nx-win32-arm64-msvc",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-win32-arm64-msvc@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-win32-arm64-msvc-16.5.3",
+      "name": "npm:@nx/nx-win32-arm64-msvc",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-win32-arm64-msvc@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19940,23 +20796,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-nx-win32-x64-msvc-16.5.0",
-      "name": "npm:@nx/nx-win32-x64-msvc",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/nx-win32-x64-msvc@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-nx-win32-x64-msvc-16.5.2",
       "name": "npm:@nx/nx-win32-x64-msvc",
       "versionInfo": "16.5.2",
@@ -19969,6 +20808,91 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40nx/nx-win32-x64-msvc@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-win32-x64-msvc-16.3.2",
+      "name": "npm:@nx/nx-win32-x64-msvc",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-win32-x64-msvc@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-nx-win32-x64-msvc-16.5.3",
+      "name": "npm:@nx/nx-win32-x64-msvc",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/nx-win32-x64-msvc@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-react-16.5.3",
+      "name": "npm:@nx/react",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/react@16.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-web-16.3.2",
+      "name": "npm:@nx/web",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/web@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-web-16.5.3",
+      "name": "npm:@nx/web",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/web@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -19991,9 +20915,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-workspace-16.5.0",
+      "SPDXID": "SPDXRef-npm-nx-workspace-16.3.2",
       "name": "npm:@nx/workspace",
-      "versionInfo": "16.5.0",
+      "versionInfo": "16.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -20002,7 +20926,24 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40nx/workspace@16.5.0",
+          "referenceLocator": "pkg:npm/%40nx/workspace@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-workspace-16.5.3",
+      "name": "npm:@nx/workspace",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40nx/workspace@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -21980,6 +22921,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-pkgr-utils-2.4.2",
+      "name": "npm:@pkgr/utils",
+      "versionInfo": "2.4.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40pkgr/utils@2.4.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-playwright-test-1.34.1",
       "name": "npm:@playwright/test",
       "versionInfo": "1.34.1",
@@ -22434,6 +23392,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40rushstack/eslint-patch@1.3.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-rushstack-eslint-patch-1.3.2",
+      "name": "npm:@rushstack/eslint-patch",
+      "versionInfo": "1.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40rushstack/eslint-patch@1.3.2",
           "referenceType": "purl"
         }
       ]
@@ -24326,6 +25301,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-storybook-channels-7.1.0",
+      "name": "npm:@storybook/channels",
+      "versionInfo": "7.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40storybook/channels@7.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-storybook-channels-6.3.12",
       "name": "npm:@storybook/channels",
       "versionInfo": "6.3.12",
@@ -24406,6 +25398,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40storybook/client-logger@7.0.26",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-storybook-client-logger-7.1.0",
+      "name": "npm:@storybook/client-logger",
+      "versionInfo": "7.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40storybook/client-logger@7.1.0",
           "referenceType": "purl"
         }
       ]
@@ -24542,6 +25551,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40storybook/core-events@7.0.26",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-storybook-core-events-7.1.0",
+      "name": "npm:@storybook/core-events",
+      "versionInfo": "7.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40storybook/core-events@7.1.0",
           "referenceType": "purl"
         }
       ]
@@ -24853,9 +25879,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-storybook-preset-create-react-app-7.0.26",
+      "SPDXID": "SPDXRef-npm-storybook-preset-create-react-app-7.1.0",
       "name": "npm:@storybook/preset-create-react-app",
-      "versionInfo": "7.0.26",
+      "versionInfo": "7.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -24864,7 +25890,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40storybook/preset-create-react-app@7.0.26",
+          "referenceLocator": "pkg:npm/%40storybook/preset-create-react-app@7.1.0",
           "referenceType": "purl"
         }
       ]
@@ -25159,6 +26185,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-storybook-types-7.1.0",
+      "name": "npm:@storybook/types",
+      "versionInfo": "7.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40storybook/types@7.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-stripe-react-stripe-js-2.1.0",
       "name": "npm:@stripe/react-stripe-js",
       "versionInfo": "2.1.0",
@@ -25448,6 +26491,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-swc-helpers-0.5.1",
+      "name": "npm:@swc/helpers",
+      "versionInfo": "0.5.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40swc/helpers@0.5.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-szmarczak-http-timer-4.0.5",
       "name": "npm:@szmarczak/http-timer",
       "versionInfo": "4.0.5",
@@ -25499,18 +26559,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-testing-library-dom-8.11.1",
+      "SPDXID": "SPDXRef-npm-testing-library-dom-9.3.1",
       "name": "npm:@testing-library/dom",
-      "versionInfo": "8.11.1",
+      "versionInfo": "9.3.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40testing-library/dom@8.11.1",
+          "referenceLocator": "pkg:npm/%40testing-library/dom@9.3.1",
           "referenceType": "purl"
         }
       ]
@@ -25533,9 +26593,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-testing-library-react-12.1.5",
+      "SPDXID": "SPDXRef-npm-testing-library-react-14.0.0",
       "name": "npm:@testing-library/react",
-      "versionInfo": "12.1.5",
+      "versionInfo": "14.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -25544,7 +26604,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40testing-library/react@12.1.5",
+          "referenceLocator": "pkg:npm/%40testing-library/react@14.0.0",
           "referenceType": "purl"
         }
       ]
@@ -25919,23 +26979,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40types/aria-query@5.0.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-types-aria-query-4.2.0",
-      "name": "npm:@types/aria-query",
-      "versionInfo": "4.2.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/aria-query@4.2.0",
           "referenceType": "purl"
         }
       ]
@@ -28865,40 +29908,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react-17.0.14",
-      "name": "npm:@types/react",
-      "versionInfo": "17.0.14",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/react@17.0.14",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-types-react-17.0.45",
-      "name": "npm:@types/react",
-      "versionInfo": "17.0.45",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/react@17.0.45",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-types-react-addons-linked-state-mixin-0.14.21",
       "name": "npm:@types/react-addons-linked-state-mixin",
       "versionInfo": "0.14.21",
@@ -28933,18 +29942,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react-dom-17.0.17",
+      "SPDXID": "SPDXRef-npm-types-react-dom-18.2.7",
       "name": "npm:@types/react-dom",
-      "versionInfo": "17.0.17",
+      "versionInfo": "18.2.7",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/react-dom@17.0.17",
+          "referenceLocator": "pkg:npm/%40types/react-dom@18.2.7",
           "referenceType": "purl"
         }
       ]
@@ -28967,9 +29976,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react-helmet-6.1.2",
+      "SPDXID": "SPDXRef-npm-types-react-helmet-6.1.6",
       "name": "npm:@types/react-helmet",
-      "versionInfo": "6.1.2",
+      "versionInfo": "6.1.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -28978,7 +29987,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/react-helmet@6.1.2",
+          "referenceLocator": "pkg:npm/%40types/react-helmet@6.1.6",
           "referenceType": "purl"
         }
       ]
@@ -29035,9 +30044,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-react-stripe-elements-6.0.5",
+      "SPDXID": "SPDXRef-npm-types-react-stripe-elements-6.0.6",
       "name": "npm:@types/react-stripe-elements",
-      "versionInfo": "6.0.5",
+      "versionInfo": "6.0.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -29046,7 +30055,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/react-stripe-elements@6.0.5",
+          "referenceLocator": "pkg:npm/%40types/react-stripe-elements@6.0.6",
           "referenceType": "purl"
         }
       ]
@@ -29064,6 +30073,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40types/react-syntax-highlighter@11.0.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-types-react-test-renderer-18.0.0",
+      "name": "npm:@types/react-test-renderer",
+      "versionInfo": "18.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40types/react-test-renderer@18.0.0",
           "referenceType": "purl"
         }
       ]
@@ -30004,6 +31030,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-parser-5.62.0",
+      "name": "npm:@typescript-eslint/parser",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/parser@5.62.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-typescript-eslint-scope-manager-5.41.0",
       "name": "npm:@typescript-eslint/scope-manager",
       "versionInfo": "5.41.0",
@@ -30072,6 +31115,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-scope-manager-5.62.0",
+      "name": "npm:@typescript-eslint/scope-manager",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/scope-manager@5.62.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-typescript-eslint-type-utils-5.59.0",
       "name": "npm:@typescript-eslint/type-utils",
       "versionInfo": "5.59.0",
@@ -30101,6 +31161,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40typescript-eslint/type-utils@5.59.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-type-utils-5.62.0",
+      "name": "npm:@typescript-eslint/type-utils",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/type-utils@5.62.0",
           "referenceType": "purl"
         }
       ]
@@ -30174,6 +31251,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-types-5.62.0",
+      "name": "npm:@typescript-eslint/types",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/types@5.62.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-typescript-eslint-typescript-estree-5.41.0",
       "name": "npm:@typescript-eslint/typescript-estree",
       "versionInfo": "5.41.0",
@@ -30242,6 +31336,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-typescript-estree-5.62.0",
+      "name": "npm:@typescript-eslint/typescript-estree",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/typescript-estree@5.62.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-typescript-eslint-utils-5.41.0",
       "name": "npm:@typescript-eslint/utils",
       "versionInfo": "5.41.0",
@@ -30288,6 +31399,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40typescript-eslint/utils@5.59.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-utils-5.62.0",
+      "name": "npm:@typescript-eslint/utils",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/utils@5.62.0",
           "referenceType": "purl"
         }
       ]
@@ -30356,6 +31484,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/%40typescript-eslint/visitor-keys@5.59.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-typescript-eslint-visitor-keys-5.62.0",
+      "name": "npm:@typescript-eslint/visitor-keys",
+      "versionInfo": "5.62.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/%40typescript-eslint/visitor-keys@5.62.0",
           "referenceType": "purl"
         }
       ]
@@ -33557,6 +34702,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-array-union-3.0.1",
+      "name": "npm:array-union",
+      "versionInfo": "3.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/array-union@3.0.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-array-union-1.0.2",
       "name": "npm:array-union",
       "versionInfo": "1.0.2",
@@ -34492,23 +35654,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-autoprefixer-10.4.7",
-      "name": "npm:autoprefixer",
-      "versionInfo": "10.4.7",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/autoprefixer@10.4.7",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-autoprefixer-9.8.6",
       "name": "npm:autoprefixer",
       "versionInfo": "9.8.6",
@@ -35048,6 +36193,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/babel-jest@29.5.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-babel-jest-29.6.1",
+      "name": "npm:babel-jest",
+      "versionInfo": "29.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/babel-jest@29.6.1",
           "referenceType": "purl"
         }
       ]
@@ -37484,23 +38646,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-browserslist-4.20.4",
-      "name": "npm:browserslist",
-      "versionInfo": "4.20.4",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/browserslist@4.20.4",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-browserslist-4.4.1",
       "name": "npm:browserslist",
       "versionInfo": "4.4.1",
@@ -37802,6 +38947,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/bulk-require@1.0.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-bundle-name-3.0.0",
+      "name": "npm:bundle-name",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/bundle-name@3.0.0",
           "referenceType": "purl"
         }
       ]
@@ -38584,6 +39746,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/caniuse-lite@1.0.30001515",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-caniuse-lite-1.0.30001517",
+      "name": "npm:caniuse-lite",
+      "versionInfo": "1.0.30001517",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/caniuse-lite@1.0.30001517",
           "referenceType": "purl"
         }
       ]
@@ -39638,6 +40817,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/cli-width@3.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-client-only-0.0.1",
+      "name": "npm:client-only",
+      "versionInfo": "0.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/client-only@0.0.1",
           "referenceType": "purl"
         }
       ]
@@ -41258,6 +42454,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-copy-webpack-plugin-10.2.4",
+      "name": "npm:copy-webpack-plugin",
+      "versionInfo": "10.2.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/copy-webpack-plugin@10.2.4",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-core-js-3.29.0",
       "name": "npm:core-js",
       "versionInfo": "3.29.0",
@@ -41474,6 +42687,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/cors@2.8.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-corser-2.0.1",
+      "name": "npm:corser",
+      "versionInfo": "2.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/corser@2.0.1",
           "referenceType": "purl"
         }
       ]
@@ -43145,6 +44375,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-default-browser-4.0.0",
+      "name": "npm:default-browser",
+      "versionInfo": "4.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/default-browser@4.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-default-browser-id-3.0.0",
       "name": "npm:default-browser-id",
       "versionInfo": "3.0.0",
@@ -43225,6 +44472,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/defer-to-connect@2.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-define-lazy-prop-3.0.0",
+      "name": "npm:define-lazy-prop",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/define-lazy-prop@3.0.0",
           "referenceType": "purl"
         }
       ]
@@ -45032,23 +46296,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-electron-to-chromium-1.4.148",
-      "name": "npm:electron-to-chromium",
-      "versionInfo": "1.4.148",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "ISC",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/electron-to-chromium@1.4.148",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-electron-to-chromium-1.4.20",
       "name": "npm:electron-to-chromium",
       "versionInfo": "1.4.20",
@@ -46222,6 +47469,40 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-eslint-import-resolver-typescript-3.5.5",
+      "name": "npm:eslint-import-resolver-typescript",
+      "versionInfo": "3.5.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-import-resolver-typescript@3.5.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-eslint-module-utils-2.8.0",
+      "name": "npm:eslint-module-utils",
+      "versionInfo": "2.8.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/eslint-module-utils@2.8.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-eslint-module-utils-2.7.1",
       "name": "npm:eslint-module-utils",
       "versionInfo": "2.7.1",
@@ -46307,23 +47588,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-eslint-plugin-jsx-a11y-6.7.1",
-      "name": "npm:eslint-plugin-jsx-a11y",
-      "versionInfo": "6.7.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/eslint-plugin-jsx-a11y@6.7.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-eslint-plugin-prettier-4.2.1",
       "name": "npm:eslint-plugin-prettier",
       "versionInfo": "4.2.1",
@@ -46353,23 +47617,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/eslint-plugin-react@7.32.2",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-eslint-plugin-react-hooks-4.6.0",
-      "name": "npm:eslint-plugin-react-hooks",
-      "versionInfo": "4.6.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/eslint-plugin-react-hooks@4.6.0",
           "referenceType": "purl"
         }
       ]
@@ -46676,6 +47923,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/espree@9.6.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-espree-9.6.1",
+      "name": "npm:espree",
+      "versionInfo": "9.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/espree@9.6.1",
           "referenceType": "purl"
         }
       ]
@@ -47169,6 +48433,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/execa@7.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-execa-7.1.1",
+      "name": "npm:execa",
+      "versionInfo": "7.1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/execa@7.1.1",
           "referenceType": "purl"
         }
       ]
@@ -50414,6 +51695,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-get-tsconfig-4.6.2",
+      "name": "npm:get-tsconfig",
+      "versionInfo": "4.6.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/get-tsconfig@4.6.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-get-uri-3.0.2",
       "name": "npm:get-uri",
       "versionInfo": "3.0.2",
@@ -51106,6 +52404,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/globby@13.1.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-globby-12.2.0",
+      "name": "npm:globby",
+      "versionInfo": "12.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/globby@12.2.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-globby-13.2.2",
+      "name": "npm:globby",
+      "versionInfo": "13.2.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/globby@13.2.2",
           "referenceType": "purl"
         }
       ]
@@ -53037,7 +54369,7 @@
       "versionInfo": "2.4.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -53537,6 +54869,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/http-proxy-middleware@2.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-http-server-14.1.1",
+      "name": "npm:http-server",
+      "versionInfo": "14.1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/http-server@14.1.1",
           "referenceType": "purl"
         }
       ]
@@ -55507,6 +56856,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-is-docker-3.0.0",
+      "name": "npm:is-docker",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/is-docker@3.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-is-docker-2.2.1",
       "name": "npm:is-docker",
       "versionInfo": "2.2.1",
@@ -55842,6 +57208,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/is-in-browser@1.1.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-is-inside-container-1.0.0",
+      "name": "npm:is-inside-container",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/is-inside-container@1.0.0",
           "referenceType": "purl"
         }
       ]
@@ -57768,6 +59151,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-jest-haste-map-29.6.1",
+      "name": "npm:jest-haste-map",
+      "versionInfo": "29.6.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jest-haste-map@29.6.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-jest-haste-map-27.5.1",
       "name": "npm:jest-haste-map",
       "versionInfo": "27.5.1",
@@ -58822,23 +60222,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jiti-1.18.2",
-      "name": "npm:jiti",
-      "versionInfo": "1.18.2",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/jiti@1.18.2",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-jiti-1.19.1",
       "name": "npm:jiti",
       "versionInfo": "1.19.1",
@@ -58919,23 +60302,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/jose@4.11.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-jose-4.13.1",
-      "name": "npm:jose",
-      "versionInfo": "4.13.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/jose@4.13.1",
           "referenceType": "purl"
         }
       ]
@@ -59616,6 +60982,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/json5@2.2.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-jsonc-eslint-parser-2.3.0",
+      "name": "npm:jsonc-eslint-parser",
+      "versionInfo": "2.3.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/jsonc-eslint-parser@2.3.0",
           "referenceType": "purl"
         }
       ]
@@ -60636,23 +62019,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/liftup@3.0.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-lilconfig-2.0.6",
-      "name": "npm:lilconfig",
-      "versionInfo": "2.0.6",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/lilconfig@2.0.6",
           "referenceType": "purl"
         }
       ]
@@ -62200,23 +63566,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/lz-string@1.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-lz-string-1.4.4",
-      "name": "npm:lz-string",
-      "versionInfo": "1.4.4",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "WTFPL",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/lz-string@1.4.4",
           "referenceType": "purl"
         }
       ]
@@ -64959,6 +66308,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-mkdirp-0.5.6",
+      "name": "npm:mkdirp",
+      "versionInfo": "0.5.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mkdirp@0.5.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-mkdirp-0.5.1",
       "name": "npm:mkdirp",
       "versionInfo": "0.5.1",
@@ -66438,23 +67804,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-node-releases-2.0.5",
-      "name": "npm:node-releases",
-      "versionInfo": "2.0.5",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/node-releases@2.0.5",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-node-sass-8.0.0",
       "name": "npm:node-sass",
       "versionInfo": "8.0.0",
@@ -66965,23 +68314,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-nx-16.5.0",
-      "name": "npm:nx",
-      "versionInfo": "16.5.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/nx@16.5.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-nx-16.5.2",
       "name": "npm:nx",
       "versionInfo": "16.5.2",
@@ -66994,6 +68326,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/nx@16.5.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-16.3.2",
+      "name": "npm:nx",
+      "versionInfo": "16.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/nx@16.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-nx-16.5.3",
+      "name": "npm:nx",
+      "versionInfo": "16.5.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/nx@16.5.3",
           "referenceType": "purl"
         }
       ]
@@ -67662,6 +69028,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-open-9.1.0",
+      "name": "npm:open",
+      "versionInfo": "9.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/open@9.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-open-7.4.2",
       "name": "npm:open",
       "versionInfo": "7.4.2",
@@ -68245,7 +69628,7 @@
       "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -70382,6 +71765,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-portfinder-1.0.32",
+      "name": "npm:portfinder",
+      "versionInfo": "1.0.32",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/portfinder@1.0.32",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-posix-character-classes-0.1.1",
       "name": "npm:posix-character-classes",
       "versionInfo": "0.1.1",
@@ -70428,6 +71828,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/postcss@8.4.25",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-postcss-8.4.26",
+      "name": "npm:postcss",
+      "versionInfo": "8.4.26",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/postcss@8.4.26",
           "referenceType": "purl"
         }
       ]
@@ -70977,23 +72394,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-import-14.1.0",
-      "name": "npm:postcss-import",
-      "versionInfo": "14.1.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-import@14.1.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-postcss-initial-4.0.1",
       "name": "npm:postcss-initial",
       "versionInfo": "4.0.1",
@@ -71045,23 +72445,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-js-4.0.0",
-      "name": "npm:postcss-js",
-      "versionInfo": "4.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-js@4.0.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-postcss-lab-function-4.2.1",
       "name": "npm:postcss-lab-function",
       "versionInfo": "4.2.1",
@@ -71091,23 +72474,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/postcss-load-config@2.1.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-postcss-load-config-3.1.4",
-      "name": "npm:postcss-load-config",
-      "versionInfo": "3.1.4",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-load-config@3.1.4",
           "referenceType": "purl"
         }
       ]
@@ -71516,23 +72882,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/postcss-modules-values@3.0.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-postcss-nested-6.0.0",
-      "name": "npm:postcss-nested",
-      "versionInfo": "6.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-nested@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -73901,23 +75250,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-react-16.14.0",
-      "name": "npm:react",
-      "versionInfo": "16.14.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/react@16.14.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-react-17.0.2",
       "name": "npm:react",
       "versionInfo": "17.0.2",
@@ -74083,23 +75415,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/react-dom@18.2.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-react-dom-16.14.0",
-      "name": "npm:react-dom",
-      "versionInfo": "16.14.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "ISC",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/react-dom@16.14.0",
           "referenceType": "purl"
         }
       ]
@@ -74292,6 +75607,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-react-is-18.2.0",
+      "name": "npm:react-is",
+      "versionInfo": "18.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/react-is@18.2.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-react-is-16.13.1",
       "name": "npm:react-is",
       "versionInfo": "16.13.1",
@@ -74428,9 +75760,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-react-redux-8.0.2",
+      "SPDXID": "SPDXRef-npm-react-redux-8.1.1",
       "name": "npm:react-redux",
-      "versionInfo": "8.0.2",
+      "versionInfo": "8.1.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -74439,7 +75771,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/react-redux@8.0.2",
+          "referenceLocator": "pkg:npm/react-redux@8.1.1",
           "referenceType": "purl"
         }
       ]
@@ -74513,9 +75845,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-react-shallow-renderer-16.14.1",
+      "SPDXID": "SPDXRef-npm-react-shallow-renderer-16.15.0",
       "name": "npm:react-shallow-renderer",
-      "versionInfo": "16.14.1",
+      "versionInfo": "16.15.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -74524,7 +75856,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/react-shallow-renderer@16.14.1",
+          "referenceLocator": "pkg:npm/react-shallow-renderer@16.15.0",
           "referenceType": "purl"
         }
       ]
@@ -74581,9 +75913,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-react-test-renderer-17.0.2",
+      "SPDXID": "SPDXRef-npm-react-test-renderer-18.2.0",
       "name": "npm:react-test-renderer",
-      "versionInfo": "17.0.2",
+      "versionInfo": "18.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -74592,7 +75924,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/react-test-renderer@17.0.2",
+          "referenceLocator": "pkg:npm/react-test-renderer@18.2.0",
           "referenceType": "purl"
         }
       ]
@@ -76485,6 +77817,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-resolve-pkg-maps-1.0.0",
+      "name": "npm:resolve-pkg-maps",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/resolve-pkg-maps@1.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-resolve-url-0.2.1",
       "name": "npm:resolve-url",
       "versionInfo": "0.2.1",
@@ -77007,6 +78356,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/rrweb-cssom@0.6.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-run-applescript-5.0.0",
+      "name": "npm:run-applescript",
+      "versionInfo": "5.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/run-applescript@5.0.0",
           "referenceType": "purl"
         }
       ]
@@ -77539,23 +78905,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-scheduler-0.19.1",
-      "name": "npm:scheduler",
-      "versionInfo": "0.19.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/scheduler@0.19.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-scheduler-0.20.2",
       "name": "npm:scheduler",
       "versionInfo": "0.20.2",
@@ -77709,6 +79058,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-secure-compare-3.0.1",
+      "name": "npm:secure-compare",
+      "versionInfo": "3.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/secure-compare@3.0.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-secure-keys-1.0.0",
       "name": "npm:secure-keys",
       "versionInfo": "1.0.0",
@@ -77840,6 +79206,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/semver@7.5.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-semver-6.3.1",
+      "name": "npm:semver",
+      "versionInfo": "6.3.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/semver@6.3.1",
           "referenceType": "purl"
         }
       ]
@@ -81313,6 +82696,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-styled-jsx-5.1.1",
+      "name": "npm:styled-jsx",
+      "versionInfo": "5.1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/styled-jsx@5.1.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-stylehacks-5.1.1",
       "name": "npm:stylehacks",
       "versionInfo": "5.1.1",
@@ -81891,6 +83291,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-synckit-0.8.5",
+      "name": "npm:synckit",
+      "versionInfo": "0.8.5",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/synckit@0.8.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-syntax-error-1.4.0",
       "name": "npm:syntax-error",
       "versionInfo": "1.4.0",
@@ -81976,23 +83393,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-tailwindcss-3.3.1",
-      "name": "npm:tailwindcss",
-      "versionInfo": "3.3.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/tailwindcss@3.3.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-tailwindcss-3.3.2",
       "name": "npm:tailwindcss",
       "versionInfo": "3.3.2",
@@ -82005,6 +83405,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/tailwindcss@3.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-tailwindcss-3.3.3",
+      "name": "npm:tailwindcss",
+      "versionInfo": "3.3.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/tailwindcss@3.3.3",
           "referenceType": "purl"
         }
       ]
@@ -82979,6 +84396,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-tiny-invariant-1.3.1",
+      "name": "npm:tiny-invariant",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/tiny-invariant@1.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-tiny-lr-1.1.1",
       "name": "npm:tiny-lr",
       "versionInfo": "1.1.1",
@@ -83025,6 +84459,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/tiny-warning@1.0.3",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-titleize-3.0.0",
+      "name": "npm:titleize",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/titleize@3.0.0",
           "referenceType": "purl"
         }
       ]
@@ -83943,6 +85394,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/tslib@2.5.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-tslib-2.6.0",
+      "name": "npm:tslib",
+      "versionInfo": "2.6.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "0BSD",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/tslib@2.6.0",
           "referenceType": "purl"
         }
       ]
@@ -84985,6 +86453,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-union-0.5.0",
+      "name": "npm:union",
+      "versionInfo": "0.5.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/union@0.5.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-union-value-1.0.1",
       "name": "npm:union-value",
       "versionInfo": "1.0.1",
@@ -85524,6 +87009,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/url@0.11.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-url-join-4.0.1",
+      "name": "npm:url-join",
+      "versionInfo": "4.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/url-join@4.0.1",
           "referenceType": "purl"
         }
       ]
@@ -86918,6 +88420,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/webpack-manifest-plugin@4.1.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-webpack-merge-5.9.0",
+      "name": "npm:webpack-merge",
+      "versionInfo": "5.9.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/webpack-merge@5.9.0",
           "referenceType": "purl"
         }
       ]
@@ -89230,6 +90749,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/zen-observable-ts@1.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-zod-3.21.4",
+      "name": "npm:zod",
+      "versionInfo": "3.21.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/zod@3.21.4",
           "referenceType": "purl"
         }
       ]

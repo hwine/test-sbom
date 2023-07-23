@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:51Z",
+    "created": "2023-07-23T19:00:30Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-glean-parser"
   ],
-  "documentNamespace": "https://github.com/mozilla/glean_parser/dependency_graph/sbom-854cc517ebfca7d9",
+  "documentNamespace": "https://github.com/mozilla/glean_parser/dependency_graph/sbom-76e8aba8e269b60c",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-glean-parser",
@@ -93,9 +93,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-flake8-bugbear-23.6.5",
+      "SPDXID": "SPDXRef-pip-flake8-bugbear-23.7.10",
       "name": "pip:flake8-bugbear",
-      "versionInfo": "23.6.5",
+      "versionInfo": "23.7.10",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -104,7 +104,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/flake8-bugbear@23.6.5",
+          "referenceLocator": "pkg:pypi/flake8-bugbear@23.7.10",
           "referenceType": "purl"
         }
       ]

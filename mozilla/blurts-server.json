@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:47Z",
+    "created": "2023-07-23T19:00:26Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-blurts-server"
   ],
-  "documentNamespace": "https://github.com/mozilla/blurts-server/dependency_graph/sbom-a3d0a5b29e7a13c7",
+  "documentNamespace": "https://github.com/mozilla/blurts-server/dependency_graph/sbom-cfee476b2c39a4db",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-blurts-server",
@@ -25742,7 +25742,7 @@
       "versionInfo": "3.26.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [

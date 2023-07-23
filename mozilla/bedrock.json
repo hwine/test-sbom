@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:51Z",
+    "created": "2023-07-23T19:00:31Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-bedrock"
   ],
-  "documentNamespace": "https://github.com/mozilla/bedrock/dependency_graph/sbom-b67b551c89fa2852",
+  "documentNamespace": "https://github.com/mozilla/bedrock/dependency_graph/sbom-a4f7d93ea3de5abf",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-bedrock",
@@ -27,7 +27,7 @@
     {
       "SPDXID": "SPDXRef-npm-babel-core",
       "name": "npm:@babel/core",
-      "versionInfo": "^ 7.22.8",
+      "versionInfo": "^ 7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -37,7 +37,7 @@
     {
       "SPDXID": "SPDXRef-npm-babel-preset-env",
       "name": "npm:@babel/preset-env",
-      "versionInfo": "^ 7.22.7",
+      "versionInfo": "^ 7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -127,7 +127,7 @@
     {
       "SPDXID": "SPDXRef-npm-concurrently",
       "name": "npm:concurrently",
-      "versionInfo": "^ 7.6.0",
+      "versionInfo": "^ 8.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -147,7 +147,7 @@
     {
       "SPDXID": "SPDXRef-npm-css-loader",
       "name": "npm:css-loader",
-      "versionInfo": "^ 6.7.3",
+      "versionInfo": "^ 6.8.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -157,7 +157,7 @@
     {
       "SPDXID": "SPDXRef-npm-css-minimizer-webpack-plugin",
       "name": "npm:css-minimizer-webpack-plugin",
-      "versionInfo": "^ 4.2.2",
+      "versionInfo": "^ 5.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -277,7 +277,7 @@
     {
       "SPDXID": "SPDXRef-npm-mini-css-extract-plugin",
       "name": "npm:mini-css-extract-plugin",
-      "versionInfo": "^ 2.7.2",
+      "versionInfo": "^ 2.7.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -297,7 +297,7 @@
     {
       "SPDXID": "SPDXRef-npm-sass",
       "name": "npm:sass",
-      "versionInfo": "^ 1.57.1",
+      "versionInfo": "^ 1.63.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -307,7 +307,7 @@
     {
       "SPDXID": "SPDXRef-npm-sass-loader",
       "name": "npm:sass-loader",
-      "versionInfo": "^ 13.2.0",
+      "versionInfo": "^ 13.3.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -327,7 +327,7 @@
     {
       "SPDXID": "SPDXRef-npm-style-loader",
       "name": "npm:style-loader",
-      "versionInfo": "^ 3.3.1",
+      "versionInfo": "^ 3.3.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -367,7 +367,7 @@
     {
       "SPDXID": "SPDXRef-npm-terser-webpack-plugin",
       "name": "npm:terser-webpack-plugin",
-      "versionInfo": "^ 5.3.6",
+      "versionInfo": "^ 5.3.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -387,7 +387,7 @@
     {
       "SPDXID": "SPDXRef-npm-webpack",
       "name": "npm:webpack",
-      "versionInfo": "^ 5.76.0",
+      "versionInfo": "^ 5.88.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -397,7 +397,7 @@
     {
       "SPDXID": "SPDXRef-npm-webpack-cli",
       "name": "npm:webpack-cli",
-      "versionInfo": "^ 5.0.1",
+      "versionInfo": "^ 5.1.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -407,7 +407,7 @@
     {
       "SPDXID": "SPDXRef-npm-webpack-dev-server",
       "name": "npm:webpack-dev-server",
-      "versionInfo": "^ 4.11.1",
+      "versionInfo": "^ 4.15.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -459,9 +459,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-compat-data-7.22.6",
+      "SPDXID": "SPDXRef-npm-babel-compat-data-7.22.9",
       "name": "npm:@babel/compat-data",
-      "versionInfo": "7.22.6",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -470,15 +470,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/compat-data@7.22.6",
+          "referenceLocator": "pkg:npm/%40babel/compat-data@7.22.9",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-core-7.22.8",
+      "SPDXID": "SPDXRef-npm-babel-core-7.22.9",
       "name": "npm:@babel/core",
-      "versionInfo": "7.22.8",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -487,15 +487,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/core@7.22.8",
+          "referenceLocator": "pkg:npm/%40babel/core@7.22.9",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-generator-7.22.7",
+      "SPDXID": "SPDXRef-npm-babel-generator-7.22.9",
       "name": "npm:@babel/generator",
-      "versionInfo": "7.22.7",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -504,7 +504,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/generator@7.22.7",
+          "referenceLocator": "pkg:npm/%40babel/generator@7.22.9",
           "referenceType": "purl"
         }
       ]
@@ -544,9 +544,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-helper-compilation-targets-7.22.6",
+      "SPDXID": "SPDXRef-npm-babel-helper-compilation-targets-7.22.9",
       "name": "npm:@babel/helper-compilation-targets",
-      "versionInfo": "7.22.6",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -555,7 +555,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/helper-compilation-targets@7.22.6",
+          "referenceLocator": "pkg:npm/%40babel/helper-compilation-targets@7.22.9",
           "referenceType": "purl"
         }
       ]
@@ -697,18 +697,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-helper-module-transforms-7.22.5",
+      "SPDXID": "SPDXRef-npm-babel-helper-module-transforms-7.22.9",
       "name": "npm:@babel/helper-module-transforms",
-      "versionInfo": "7.22.5",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/helper-module-transforms@7.22.5",
+          "referenceLocator": "pkg:npm/%40babel/helper-module-transforms@7.22.9",
           "referenceType": "purl"
         }
       ]
@@ -2142,9 +2142,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-babel-preset-env-7.22.7",
+      "SPDXID": "SPDXRef-npm-babel-preset-env-7.22.9",
       "name": "npm:@babel/preset-env",
-      "versionInfo": "7.22.7",
+      "versionInfo": "7.22.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -2153,7 +2153,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40babel/preset-env@7.22.7",
+          "referenceLocator": "pkg:npm/%40babel/preset-env@7.22.9",
           "referenceType": "purl"
         }
       ]
@@ -2431,35 +2431,35 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jest-schemas-29.0.0",
+      "SPDXID": "SPDXRef-npm-jest-schemas-29.6.0",
       "name": "npm:@jest/schemas",
-      "versionInfo": "29.0.0",
+      "versionInfo": "29.6.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40jest/schemas@29.0.0",
+          "referenceLocator": "pkg:npm/%40jest/schemas@29.6.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jest-types-29.3.1",
+      "SPDXID": "SPDXRef-npm-jest-types-29.6.1",
       "name": "npm:@jest/types",
-      "versionInfo": "29.3.1",
+      "versionInfo": "29.6.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40jest/types@29.3.1",
+          "referenceLocator": "pkg:npm/%40jest/types@29.6.1",
           "referenceType": "purl"
         }
       ]
@@ -2499,23 +2499,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jridgewell-gen-mapping-0.3.2",
-      "name": "npm:@jridgewell/gen-mapping",
-      "versionInfo": "0.3.2",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40jridgewell/gen-mapping@0.3.2",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-jridgewell-resolve-uri-3.1.0",
       "name": "npm:@jridgewell/resolve-uri",
       "versionInfo": "3.1.0",
@@ -2550,18 +2533,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jridgewell-source-map-0.3.2",
+      "SPDXID": "SPDXRef-npm-jridgewell-source-map-0.3.5",
       "name": "npm:@jridgewell/source-map",
-      "versionInfo": "0.3.2",
+      "versionInfo": "0.3.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40jridgewell/source-map@0.3.2",
+          "referenceLocator": "pkg:npm/%40jridgewell/source-map@0.3.5",
           "referenceType": "purl"
         }
       ]
@@ -2856,9 +2839,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-sinclair-typebox-0.24.51",
+      "SPDXID": "SPDXRef-npm-sinclair-typebox-0.27.8",
       "name": "npm:@sinclair/typebox",
-      "versionInfo": "0.24.51",
+      "versionInfo": "0.27.8",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -2867,7 +2850,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40sinclair/typebox@0.24.51",
+          "referenceLocator": "pkg:npm/%40sinclair/typebox@0.27.8",
           "referenceType": "purl"
         }
       ]
@@ -3145,9 +3128,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-estree-0.0.51",
+      "SPDXID": "SPDXRef-npm-types-estree-1.0.1",
       "name": "npm:@types/estree",
-      "versionInfo": "0.0.51",
+      "versionInfo": "1.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3156,7 +3139,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/estree@0.0.51",
+          "referenceLocator": "pkg:npm/%40types/estree@1.0.1",
           "referenceType": "purl"
         }
       ]
@@ -3485,26 +3468,26 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-ws-8.5.4",
+      "SPDXID": "SPDXRef-npm-types-ws-8.5.5",
       "name": "npm:@types/ws",
-      "versionInfo": "8.5.4",
+      "versionInfo": "8.5.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/ws@8.5.4",
+          "referenceLocator": "pkg:npm/%40types/ws@8.5.5",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-types-yargs-17.0.18",
+      "SPDXID": "SPDXRef-npm-types-yargs-17.0.24",
       "name": "npm:@types/yargs",
-      "versionInfo": "17.0.18",
+      "versionInfo": "17.0.24",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3513,7 +3496,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40types/yargs@17.0.18",
+          "referenceLocator": "pkg:npm/%40types/yargs@17.0.24",
           "referenceType": "purl"
         }
       ]
@@ -3536,9 +3519,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-ast-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-ast-1.11.6",
       "name": "npm:@webassemblyjs/ast",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3547,15 +3530,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/ast@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/ast@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-floating-point-hex-parser-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-floating-point-hex-parser-1.11.6",
       "name": "npm:@webassemblyjs/floating-point-hex-parser",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3564,15 +3547,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/floating-point-hex-parser@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/floating-point-hex-parser@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-api-error-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-api-error-1.11.6",
       "name": "npm:@webassemblyjs/helper-api-error",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3581,15 +3564,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-api-error@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-api-error@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-buffer-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-buffer-1.11.6",
       "name": "npm:@webassemblyjs/helper-buffer",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3598,15 +3581,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-buffer@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-buffer@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-numbers-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-numbers-1.11.6",
       "name": "npm:@webassemblyjs/helper-numbers",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3615,15 +3598,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-numbers@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-numbers@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-wasm-bytecode-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-wasm-bytecode-1.11.6",
       "name": "npm:@webassemblyjs/helper-wasm-bytecode",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3632,15 +3615,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-wasm-bytecode@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-wasm-bytecode@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-wasm-section-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-helper-wasm-section-1.11.6",
       "name": "npm:@webassemblyjs/helper-wasm-section",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3649,15 +3632,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-wasm-section@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/helper-wasm-section@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-ieee754-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-ieee754-1.11.6",
       "name": "npm:@webassemblyjs/ieee754",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3666,15 +3649,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/ieee754@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/ieee754@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-leb128-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-leb128-1.11.6",
       "name": "npm:@webassemblyjs/leb128",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "Apache-2.0",
@@ -3683,15 +3666,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/leb128@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/leb128@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-utf8-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-utf8-1.11.6",
       "name": "npm:@webassemblyjs/utf8",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3700,15 +3683,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/utf8@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/utf8@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-edit-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-edit-1.11.6",
       "name": "npm:@webassemblyjs/wasm-edit",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3717,15 +3700,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-edit@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-edit@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-gen-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-gen-1.11.6",
       "name": "npm:@webassemblyjs/wasm-gen",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3734,15 +3717,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-gen@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-gen@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-opt-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-opt-1.11.6",
       "name": "npm:@webassemblyjs/wasm-opt",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3751,15 +3734,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-opt@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-opt@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-parser-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-wasm-parser-1.11.6",
       "name": "npm:@webassemblyjs/wasm-parser",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3768,15 +3751,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-parser@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/wasm-parser@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webassemblyjs-wast-printer-1.11.1",
+      "SPDXID": "SPDXRef-npm-webassemblyjs-wast-printer-1.11.6",
       "name": "npm:@webassemblyjs/wast-printer",
-      "versionInfo": "1.11.1",
+      "versionInfo": "1.11.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3785,58 +3768,58 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webassemblyjs/wast-printer@1.11.1",
+          "referenceLocator": "pkg:npm/%40webassemblyjs/wast-printer@1.11.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-cli-configtest-2.0.1",
+      "SPDXID": "SPDXRef-npm-webpack-cli-configtest-2.1.1",
       "name": "npm:@webpack-cli/configtest",
-      "versionInfo": "2.0.1",
+      "versionInfo": "2.1.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webpack-cli/configtest@2.0.1",
+          "referenceLocator": "pkg:npm/%40webpack-cli/configtest@2.1.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-cli-info-2.0.1",
+      "SPDXID": "SPDXRef-npm-webpack-cli-info-2.0.2",
       "name": "npm:@webpack-cli/info",
-      "versionInfo": "2.0.1",
+      "versionInfo": "2.0.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webpack-cli/info@2.0.1",
+          "referenceLocator": "pkg:npm/%40webpack-cli/info@2.0.2",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-cli-serve-2.0.1",
+      "SPDXID": "SPDXRef-npm-webpack-cli-serve-2.0.5",
       "name": "npm:@webpack-cli/serve",
-      "versionInfo": "2.0.1",
+      "versionInfo": "2.0.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/%40webpack-cli/serve@2.0.1",
+          "referenceLocator": "pkg:npm/%40webpack-cli/serve@2.0.5",
           "referenceType": "purl"
         }
       ]
@@ -3893,26 +3876,26 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-acorn-8.8.0",
+      "SPDXID": "SPDXRef-npm-acorn-8.10.0",
       "name": "npm:acorn",
-      "versionInfo": "8.8.0",
+      "versionInfo": "8.10.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/acorn@8.8.0",
+          "referenceLocator": "pkg:npm/acorn@8.10.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-acorn-import-assertions-1.8.0",
+      "SPDXID": "SPDXRef-npm-acorn-import-assertions-1.9.0",
       "name": "npm:acorn-import-assertions",
-      "versionInfo": "1.8.0",
+      "versionInfo": "1.9.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3921,7 +3904,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/acorn-import-assertions@1.8.0",
+          "referenceLocator": "pkg:npm/acorn-import-assertions@1.9.0",
           "referenceType": "purl"
         }
       ]
@@ -4794,9 +4777,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-caniuse-lite-1.0.30001514",
+      "SPDXID": "SPDXRef-npm-caniuse-lite-1.0.30001516",
       "name": "npm:caniuse-lite",
-      "versionInfo": "1.0.30001514",
+      "versionInfo": "1.0.30001516",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -4805,7 +4788,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/caniuse-lite@1.0.30001514",
+          "referenceLocator": "pkg:npm/caniuse-lite@1.0.30001516",
           "referenceType": "purl"
         }
       ]
@@ -4913,9 +4896,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-ci-info-3.7.1",
+      "SPDXID": "SPDXRef-npm-ci-info-3.8.0",
       "name": "npm:ci-info",
-      "versionInfo": "3.7.1",
+      "versionInfo": "3.8.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -4924,7 +4907,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/ci-info@3.7.1",
+          "referenceLocator": "pkg:npm/ci-info@3.8.0",
           "referenceType": "purl"
         }
       ]
@@ -4942,6 +4925,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/clean-webpack-plugin@4.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-cliui-8.0.1",
+      "name": "npm:cliui",
+      "versionInfo": "8.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/cliui@8.0.1",
           "referenceType": "purl"
         }
       ]
@@ -5100,9 +5100,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-commander-9.4.1",
+      "SPDXID": "SPDXRef-npm-commander-10.0.1",
       "name": "npm:commander",
-      "versionInfo": "9.4.1",
+      "versionInfo": "10.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5111,7 +5111,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/commander@9.4.1",
+          "referenceLocator": "pkg:npm/commander@10.0.1",
           "referenceType": "purl"
         }
       ]
@@ -5219,9 +5219,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-concurrently-7.6.0",
+      "SPDXID": "SPDXRef-npm-concurrently-8.2.0",
       "name": "npm:concurrently",
-      "versionInfo": "7.6.0",
+      "versionInfo": "8.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5230,7 +5230,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/concurrently@7.6.0",
+          "referenceLocator": "pkg:npm/concurrently@8.2.0",
           "referenceType": "purl"
         }
       ]
@@ -5474,18 +5474,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-css-declaration-sorter-6.3.0",
+      "SPDXID": "SPDXRef-npm-css-declaration-sorter-6.4.1",
       "name": "npm:css-declaration-sorter",
-      "versionInfo": "6.3.0",
+      "versionInfo": "6.4.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "ISC",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/css-declaration-sorter@6.3.0",
+          "referenceLocator": "pkg:npm/css-declaration-sorter@6.4.1",
           "referenceType": "purl"
         }
       ]
@@ -5508,9 +5508,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-css-loader-6.7.3",
+      "SPDXID": "SPDXRef-npm-css-loader-6.8.1",
       "name": "npm:css-loader",
-      "versionInfo": "6.7.3",
+      "versionInfo": "6.8.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5519,24 +5519,24 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/css-loader@6.7.3",
+          "referenceLocator": "pkg:npm/css-loader@6.8.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-css-minimizer-webpack-plugin-4.2.2",
+      "SPDXID": "SPDXRef-npm-css-minimizer-webpack-plugin-5.0.1",
       "name": "npm:css-minimizer-webpack-plugin",
-      "versionInfo": "4.2.2",
+      "versionInfo": "5.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/css-minimizer-webpack-plugin@4.2.2",
+          "referenceLocator": "pkg:npm/css-minimizer-webpack-plugin@5.0.1",
           "referenceType": "purl"
         }
       ]
@@ -5554,23 +5554,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/css-select@5.1.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-css-select-4.3.0",
-      "name": "npm:css-select",
-      "versionInfo": "4.3.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/css-select@4.3.0",
           "referenceType": "purl"
         }
       ]
@@ -5610,23 +5593,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-css-tree-1.1.3",
-      "name": "npm:css-tree",
-      "versionInfo": "1.1.3",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/css-tree@1.1.3",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-css-what-6.1.0",
       "name": "npm:css-what",
       "versionInfo": "6.1.0",
@@ -5661,9 +5627,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-cssnano-5.1.13",
+      "SPDXID": "SPDXRef-npm-cssnano-6.0.1",
       "name": "npm:cssnano",
-      "versionInfo": "5.1.13",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5672,15 +5638,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/cssnano@5.1.13",
+          "referenceLocator": "pkg:npm/cssnano@6.0.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-cssnano-preset-default-5.2.12",
+      "SPDXID": "SPDXRef-npm-cssnano-preset-default-6.0.1",
       "name": "npm:cssnano-preset-default",
-      "versionInfo": "5.2.12",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5689,15 +5655,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/cssnano-preset-default@5.2.12",
+          "referenceLocator": "pkg:npm/cssnano-preset-default@6.0.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-cssnano-utils-3.1.0",
+      "SPDXID": "SPDXRef-npm-cssnano-utils-4.0.0",
       "name": "npm:cssnano-utils",
-      "versionInfo": "3.1.0",
+      "versionInfo": "4.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5706,7 +5672,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/cssnano-utils@3.1.0",
+          "referenceLocator": "pkg:npm/cssnano-utils@4.0.0",
           "referenceType": "purl"
         }
       ]
@@ -5724,23 +5690,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/csso@5.0.5",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-csso-4.2.0",
-      "name": "npm:csso",
-      "versionInfo": "4.2.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/csso@4.2.0",
           "referenceType": "purl"
         }
       ]
@@ -5780,9 +5729,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-date-fns-2.29.2",
+      "SPDXID": "SPDXRef-npm-date-fns-2.30.0",
       "name": "npm:date-fns",
-      "versionInfo": "2.29.2",
+      "versionInfo": "2.30.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -5791,7 +5740,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/date-fns@2.29.2",
+          "referenceLocator": "pkg:npm/date-fns@2.30.0",
           "referenceType": "purl"
         }
       ]
@@ -6205,23 +6154,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-dom-serializer-1.4.1",
-      "name": "npm:dom-serializer",
-      "versionInfo": "1.4.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/dom-serializer@1.4.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-domelementtype-2.3.0",
       "name": "npm:domelementtype",
       "versionInfo": "2.3.0",
@@ -6256,23 +6188,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-domhandler-4.3.1",
-      "name": "npm:domhandler",
-      "versionInfo": "4.3.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/domhandler@4.3.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-domutils-3.0.1",
       "name": "npm:domutils",
       "versionInfo": "3.0.1",
@@ -6285,23 +6200,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/domutils@3.0.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-domutils-2.8.0",
-      "name": "npm:domutils",
-      "versionInfo": "2.8.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/domutils@2.8.0",
           "referenceType": "purl"
         }
       ]
@@ -6477,9 +6375,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-enhanced-resolve-5.10.0",
+      "SPDXID": "SPDXRef-npm-enhanced-resolve-5.15.0",
       "name": "npm:enhanced-resolve",
-      "versionInfo": "5.10.0",
+      "versionInfo": "5.15.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -6488,7 +6386,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/enhanced-resolve@5.10.0",
+          "referenceLocator": "pkg:npm/enhanced-resolve@5.15.0",
           "referenceType": "purl"
         }
       ]
@@ -6528,23 +6426,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-entities-2.2.0",
-      "name": "npm:entities",
-      "versionInfo": "2.2.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/entities@2.2.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-envinfo-7.8.1",
       "name": "npm:envinfo",
       "versionInfo": "7.8.1",
@@ -6579,18 +6460,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-es-module-lexer-0.9.3",
+      "SPDXID": "SPDXRef-npm-es-module-lexer-1.3.0",
       "name": "npm:es-module-lexer",
-      "versionInfo": "0.9.3",
+      "versionInfo": "1.3.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/es-module-lexer@0.9.3",
+          "referenceLocator": "pkg:npm/es-module-lexer@1.3.0",
           "referenceType": "purl"
         }
       ]
@@ -8891,9 +8772,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jest-util-29.3.1",
+      "SPDXID": "SPDXRef-npm-jest-util-29.6.1",
       "name": "npm:jest-util",
-      "versionInfo": "29.3.1",
+      "versionInfo": "29.6.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -8902,15 +8783,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/jest-util@29.3.1",
+          "referenceLocator": "pkg:npm/jest-util@29.6.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-jest-worker-29.3.1",
+      "SPDXID": "SPDXRef-npm-jest-worker-29.6.1",
       "name": "npm:jest-worker",
-      "versionInfo": "29.3.1",
+      "versionInfo": "29.6.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -8919,7 +8800,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/jest-worker@29.3.1",
+          "referenceLocator": "pkg:npm/jest-worker@29.6.1",
           "referenceType": "purl"
         }
       ]
@@ -9367,23 +9248,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-klona-2.0.5",
-      "name": "npm:klona",
-      "versionInfo": "2.0.5",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/klona@2.0.5",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-known-css-properties-0.27.0",
       "name": "npm:known-css-properties",
       "versionInfo": "0.27.0",
@@ -9396,6 +9260,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/known-css-properties@0.27.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-launch-editor-2.6.0",
+      "name": "npm:launch-editor",
+      "versionInfo": "2.6.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/launch-editor@2.6.0",
           "referenceType": "purl"
         }
       ]
@@ -9418,9 +9299,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-lilconfig-2.0.6",
+      "SPDXID": "SPDXRef-npm-lilconfig-2.1.0",
       "name": "npm:lilconfig",
-      "versionInfo": "2.0.6",
+      "versionInfo": "2.1.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -9429,7 +9310,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/lilconfig@2.0.6",
+          "referenceLocator": "pkg:npm/lilconfig@2.1.0",
           "referenceType": "purl"
         }
       ]
@@ -9775,23 +9656,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-mdn-data-2.0.14",
-      "name": "npm:mdn-data",
-      "versionInfo": "2.0.14",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "CC0-1.0",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/mdn-data@2.0.14",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-media-typer-0.3.0",
       "name": "npm:media-typer",
       "versionInfo": "0.3.0",
@@ -10030,9 +9894,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-mini-css-extract-plugin-2.7.2",
+      "SPDXID": "SPDXRef-npm-mini-css-extract-plugin-2.7.6",
       "name": "npm:mini-css-extract-plugin",
-      "versionInfo": "2.7.2",
+      "versionInfo": "2.7.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -10041,7 +9905,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/mini-css-extract-plugin@2.7.2",
+          "referenceLocator": "pkg:npm/mini-css-extract-plugin@2.7.6",
           "referenceType": "purl"
         }
       ]
@@ -10353,23 +10217,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-normalize-url-6.1.0",
-      "name": "npm:normalize-url",
-      "versionInfo": "6.1.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/normalize-url@6.1.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-npm-run-path-4.0.1",
       "name": "npm:npm-run-path",
       "versionInfo": "4.0.1",
@@ -10647,7 +10494,7 @@
       "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -11118,9 +10965,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-calc-8.2.4",
+      "SPDXID": "SPDXRef-npm-postcss-calc-9.0.1",
       "name": "npm:postcss-calc",
-      "versionInfo": "8.2.4",
+      "versionInfo": "9.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11129,15 +10976,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-calc@8.2.4",
+          "referenceLocator": "pkg:npm/postcss-calc@9.0.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-colormin-5.3.0",
+      "SPDXID": "SPDXRef-npm-postcss-colormin-6.0.0",
       "name": "npm:postcss-colormin",
-      "versionInfo": "5.3.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11146,15 +10993,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-colormin@5.3.0",
+          "referenceLocator": "pkg:npm/postcss-colormin@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-convert-values-5.1.2",
+      "SPDXID": "SPDXRef-npm-postcss-convert-values-6.0.0",
       "name": "npm:postcss-convert-values",
-      "versionInfo": "5.1.2",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11163,15 +11010,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-convert-values@5.1.2",
+          "referenceLocator": "pkg:npm/postcss-convert-values@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-discard-comments-5.1.2",
+      "SPDXID": "SPDXRef-npm-postcss-discard-comments-6.0.0",
       "name": "npm:postcss-discard-comments",
-      "versionInfo": "5.1.2",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11180,15 +11027,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-discard-comments@5.1.2",
+          "referenceLocator": "pkg:npm/postcss-discard-comments@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-discard-duplicates-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-discard-duplicates-6.0.0",
       "name": "npm:postcss-discard-duplicates",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11197,15 +11044,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-discard-duplicates@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-discard-duplicates@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-discard-empty-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-discard-empty-6.0.0",
       "name": "npm:postcss-discard-empty",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11214,15 +11061,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-discard-empty@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-discard-empty@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-discard-overridden-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-discard-overridden-6.0.0",
       "name": "npm:postcss-discard-overridden",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11231,7 +11078,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-discard-overridden@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-discard-overridden@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -11254,9 +11101,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-merge-longhand-5.1.6",
+      "SPDXID": "SPDXRef-npm-postcss-merge-longhand-6.0.0",
       "name": "npm:postcss-merge-longhand",
-      "versionInfo": "5.1.6",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11265,15 +11112,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-merge-longhand@5.1.6",
+          "referenceLocator": "pkg:npm/postcss-merge-longhand@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-merge-rules-5.1.2",
+      "SPDXID": "SPDXRef-npm-postcss-merge-rules-6.0.1",
       "name": "npm:postcss-merge-rules",
-      "versionInfo": "5.1.2",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11282,15 +11129,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-merge-rules@5.1.2",
+          "referenceLocator": "pkg:npm/postcss-merge-rules@6.0.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-minify-font-values-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-minify-font-values-6.0.0",
       "name": "npm:postcss-minify-font-values",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11299,15 +11146,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-minify-font-values@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-minify-font-values@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-minify-gradients-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-minify-gradients-6.0.0",
       "name": "npm:postcss-minify-gradients",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11316,15 +11163,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-minify-gradients@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-minify-gradients@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-minify-params-5.1.3",
+      "SPDXID": "SPDXRef-npm-postcss-minify-params-6.0.0",
       "name": "npm:postcss-minify-params",
-      "versionInfo": "5.1.3",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11333,15 +11180,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-minify-params@5.1.3",
+          "referenceLocator": "pkg:npm/postcss-minify-params@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-minify-selectors-5.2.1",
+      "SPDXID": "SPDXRef-npm-postcss-minify-selectors-6.0.0",
       "name": "npm:postcss-minify-selectors",
-      "versionInfo": "5.2.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11350,7 +11197,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-minify-selectors@5.2.1",
+          "referenceLocator": "pkg:npm/postcss-minify-selectors@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -11373,9 +11220,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-modules-local-by-default-4.0.0",
+      "SPDXID": "SPDXRef-npm-postcss-modules-local-by-default-4.0.3",
       "name": "npm:postcss-modules-local-by-default",
-      "versionInfo": "4.0.0",
+      "versionInfo": "4.0.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11384,7 +11231,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-modules-local-by-default@4.0.0",
+          "referenceLocator": "pkg:npm/postcss-modules-local-by-default@4.0.3",
           "referenceType": "purl"
         }
       ]
@@ -11424,9 +11271,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-charset-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-charset-6.0.0",
       "name": "npm:postcss-normalize-charset",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11435,15 +11282,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-charset@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-charset@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-display-values-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-display-values-6.0.0",
       "name": "npm:postcss-normalize-display-values",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11452,15 +11299,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-display-values@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-display-values@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-positions-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-positions-6.0.0",
       "name": "npm:postcss-normalize-positions",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11469,15 +11316,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-positions@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-normalize-positions@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-repeat-style-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-repeat-style-6.0.0",
       "name": "npm:postcss-normalize-repeat-style",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11486,15 +11333,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-repeat-style@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-normalize-repeat-style@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-string-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-string-6.0.0",
       "name": "npm:postcss-normalize-string",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11503,15 +11350,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-string@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-string@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-timing-functions-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-timing-functions-6.0.0",
       "name": "npm:postcss-normalize-timing-functions",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11520,15 +11367,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-timing-functions@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-timing-functions@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-unicode-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-unicode-6.0.0",
       "name": "npm:postcss-normalize-unicode",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11537,15 +11384,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-unicode@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-unicode@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-url-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-url-6.0.0",
       "name": "npm:postcss-normalize-url",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11554,15 +11401,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-url@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-normalize-url@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-normalize-whitespace-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-normalize-whitespace-6.0.0",
       "name": "npm:postcss-normalize-whitespace",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11571,15 +11418,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-normalize-whitespace@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-normalize-whitespace@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-ordered-values-5.1.3",
+      "SPDXID": "SPDXRef-npm-postcss-ordered-values-6.0.0",
       "name": "npm:postcss-ordered-values",
-      "versionInfo": "5.1.3",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11588,15 +11435,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-ordered-values@5.1.3",
+          "referenceLocator": "pkg:npm/postcss-ordered-values@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-reduce-initial-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-reduce-initial-6.0.0",
       "name": "npm:postcss-reduce-initial",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11605,15 +11452,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-reduce-initial@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-reduce-initial@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-reduce-transforms-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-reduce-transforms-6.0.0",
       "name": "npm:postcss-reduce-transforms",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11622,7 +11469,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-reduce-transforms@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-reduce-transforms@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -11696,9 +11543,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-svgo-5.1.0",
+      "SPDXID": "SPDXRef-npm-postcss-svgo-6.0.0",
       "name": "npm:postcss-svgo",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11707,15 +11554,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-svgo@5.1.0",
+          "referenceLocator": "pkg:npm/postcss-svgo@6.0.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-postcss-unique-selectors-5.1.1",
+      "SPDXID": "SPDXRef-npm-postcss-unique-selectors-6.0.0",
       "name": "npm:postcss-unique-selectors",
-      "versionInfo": "5.1.1",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -11724,7 +11571,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/postcss-unique-selectors@5.1.1",
+          "referenceLocator": "pkg:npm/postcss-unique-selectors@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -12478,18 +12325,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-rxjs-7.5.6",
+      "SPDXID": "SPDXRef-npm-rxjs-7.8.1",
       "name": "npm:rxjs",
-      "versionInfo": "7.5.6",
+      "versionInfo": "7.8.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/rxjs@7.5.6",
+          "referenceLocator": "pkg:npm/rxjs@7.8.1",
           "referenceType": "purl"
         }
       ]
@@ -12546,9 +12393,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-sass-1.57.1",
+      "SPDXID": "SPDXRef-npm-sass-1.63.6",
       "name": "npm:sass",
-      "versionInfo": "1.57.1",
+      "versionInfo": "1.63.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -12557,15 +12404,32 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/sass@1.57.1",
+          "referenceLocator": "pkg:npm/sass@1.63.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-sass-loader-13.2.0",
+      "SPDXID": "SPDXRef-npm-sass-loader-13.3.2",
       "name": "npm:sass-loader",
-      "versionInfo": "13.2.0",
+      "versionInfo": "13.3.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/sass-loader@13.3.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-schema-utils-3.3.0",
+      "name": "npm:schema-utils",
+      "versionInfo": "3.3.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -12574,7 +12438,24 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/sass-loader@13.2.0",
+          "referenceLocator": "pkg:npm/schema-utils@3.3.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-schema-utils-4.2.0",
+      "name": "npm:schema-utils",
+      "versionInfo": "4.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/schema-utils@4.2.0",
           "referenceType": "purl"
         }
       ]
@@ -12592,23 +12473,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/schema-utils@3.1.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-schema-utils-4.0.0",
-      "name": "npm:schema-utils",
-      "versionInfo": "4.0.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/schema-utils@4.0.0",
           "referenceType": "purl"
         }
       ]
@@ -12665,6 +12529,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-semver-6.3.1",
+      "name": "npm:semver",
+      "versionInfo": "6.3.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/semver@6.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-send-0.18.0",
       "name": "npm:send",
       "versionInfo": "0.18.0",
@@ -12682,9 +12563,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-serialize-javascript-6.0.0",
+      "SPDXID": "SPDXRef-npm-serialize-javascript-6.0.1",
       "name": "npm:serialize-javascript",
-      "versionInfo": "6.0.0",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "BSD-3-Clause",
@@ -12693,7 +12574,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/serialize-javascript@6.0.0",
+          "referenceLocator": "pkg:npm/serialize-javascript@6.0.1",
           "referenceType": "purl"
         }
       ]
@@ -12818,9 +12699,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-shell-quote-1.7.3",
+      "SPDXID": "SPDXRef-npm-shell-quote-1.8.1",
       "name": "npm:shell-quote",
-      "versionInfo": "1.7.3",
+      "versionInfo": "1.8.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -12829,7 +12710,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/shell-quote@1.7.3",
+          "referenceLocator": "pkg:npm/shell-quote@1.8.1",
           "referenceType": "purl"
         }
       ]
@@ -13073,9 +12954,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-spawn-command-0.0.2-1",
+      "SPDXID": "SPDXRef-npm-spawn-command-0.0.2",
       "name": "npm:spawn-command",
-      "versionInfo": "0.0.2-1",
+      "versionInfo": "0.0.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -13084,7 +12965,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/spawn-command@0.0.2-1",
+          "referenceLocator": "pkg:npm/spawn-command@0.0.2",
           "referenceType": "purl"
         }
       ]
@@ -13204,23 +13085,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/sshpk@1.17.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-stable-0.1.8",
-      "name": "npm:stable",
-      "versionInfo": "0.1.8",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/stable@0.1.8",
           "referenceType": "purl"
         }
       ]
@@ -13413,9 +13277,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-style-loader-3.3.1",
+      "SPDXID": "SPDXRef-npm-style-loader-3.3.3",
       "name": "npm:style-loader",
-      "versionInfo": "3.3.1",
+      "versionInfo": "3.3.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -13424,7 +13288,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/style-loader@3.3.1",
+          "referenceLocator": "pkg:npm/style-loader@3.3.3",
           "referenceType": "purl"
         }
       ]
@@ -13447,9 +13311,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-stylehacks-5.1.0",
+      "SPDXID": "SPDXRef-npm-stylehacks-6.0.0",
       "name": "npm:stylehacks",
-      "versionInfo": "5.1.0",
+      "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -13458,7 +13322,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/stylehacks@5.1.0",
+          "referenceLocator": "pkg:npm/stylehacks@6.0.0",
           "referenceType": "purl"
         }
       ]
@@ -13702,23 +13566,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-svgo-2.8.0",
-      "name": "npm:svgo",
-      "versionInfo": "2.8.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/svgo@2.8.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-table-6.8.1",
       "name": "npm:table",
       "versionInfo": "6.8.1",
@@ -13753,26 +13600,26 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-terser-5.15.0",
+      "SPDXID": "SPDXRef-npm-terser-5.19.0",
       "name": "npm:terser",
-      "versionInfo": "5.15.0",
+      "versionInfo": "5.19.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/terser@5.15.0",
+          "referenceLocator": "pkg:npm/terser@5.19.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-terser-webpack-plugin-5.3.6",
+      "SPDXID": "SPDXRef-npm-terser-webpack-plugin-5.3.9",
       "name": "npm:terser-webpack-plugin",
-      "versionInfo": "5.3.6",
+      "versionInfo": "5.3.9",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -13781,7 +13628,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/terser-webpack-plugin@5.3.6",
+          "referenceLocator": "pkg:npm/terser-webpack-plugin@5.3.9",
           "referenceType": "purl"
         }
       ]
@@ -14535,26 +14382,26 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-5.76.0",
+      "SPDXID": "SPDXRef-npm-webpack-5.88.1",
       "name": "npm:webpack",
-      "versionInfo": "5.76.0",
+      "versionInfo": "5.88.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/webpack@5.76.0",
+          "referenceLocator": "pkg:npm/webpack@5.88.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-cli-5.0.1",
+      "SPDXID": "SPDXRef-npm-webpack-cli-5.1.4",
       "name": "npm:webpack-cli",
-      "versionInfo": "5.0.1",
+      "versionInfo": "5.1.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -14563,7 +14410,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/webpack-cli@5.0.1",
+          "referenceLocator": "pkg:npm/webpack-cli@5.1.4",
           "referenceType": "purl"
         }
       ]
@@ -14586,9 +14433,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-webpack-dev-server-4.11.1",
+      "SPDXID": "SPDXRef-npm-webpack-dev-server-4.15.1",
       "name": "npm:webpack-dev-server",
-      "versionInfo": "4.11.1",
+      "versionInfo": "4.15.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -14597,7 +14444,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/webpack-dev-server@4.11.1",
+          "referenceLocator": "pkg:npm/webpack-dev-server@4.15.1",
           "referenceType": "purl"
         }
       ]
@@ -14739,18 +14586,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-word-wrap-1.2.3",
+      "SPDXID": "SPDXRef-npm-word-wrap-1.2.4",
       "name": "npm:word-wrap",
-      "versionInfo": "1.2.3",
+      "versionInfo": "1.2.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/word-wrap@1.2.3",
+          "referenceLocator": "pkg:npm/word-wrap@1.2.4",
           "referenceType": "purl"
         }
       ]
@@ -14807,23 +14654,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-ws-8.12.0",
-      "name": "npm:ws",
-      "versionInfo": "8.12.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/ws@8.12.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-ws-8.11.0",
       "name": "npm:ws",
       "versionInfo": "8.11.0",
@@ -14836,6 +14666,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/ws@8.11.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-ws-8.13.0",
+      "name": "npm:ws",
+      "versionInfo": "8.13.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/ws@8.13.0",
           "referenceType": "purl"
         }
       ]
@@ -14892,18 +14739,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-yaml-1.10.2",
-      "name": "npm:yaml",
-      "versionInfo": "1.10.2",
+      "SPDXID": "SPDXRef-npm-yargs-17.7.2",
+      "name": "npm:yargs",
+      "versionInfo": "17.7.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "ISC",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/yaml@1.10.2",
+          "referenceLocator": "pkg:npm/yargs@17.7.2",
           "referenceType": "purl"
         }
       ]
@@ -14921,23 +14768,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/yargs@16.2.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-npm-yargs-17.5.1",
-      "name": "npm:yargs",
-      "versionInfo": "17.5.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/yargs@17.5.1",
           "referenceType": "purl"
         }
       ]
@@ -16434,6 +16264,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/date-fns@1.30.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-date-fns-2.29.2",
+      "name": "npm:date-fns",
+      "versionInfo": "2.29.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/date-fns@2.29.2",
           "referenceType": "purl"
         }
       ]
@@ -18870,6 +18717,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-rxjs-7.5.6",
+      "name": "npm:rxjs",
+      "versionInfo": "7.5.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/rxjs@7.5.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-rxjs-6.6.7",
       "name": "npm:rxjs",
       "versionInfo": "6.6.7",
@@ -19601,6 +19465,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-yaml-1.10.2",
+      "name": "npm:yaml",
+      "versionInfo": "1.10.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/yaml@1.10.2",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-yargs-13.3.2",
       "name": "npm:yargs",
       "versionInfo": "13.3.2",
@@ -19630,6 +19511,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/yargs@15.4.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-yargs-17.5.1",
+      "name": "npm:yargs",
+      "versionInfo": "17.5.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/yargs@17.5.1",
           "referenceType": "purl"
         }
       ]

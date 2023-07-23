@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:53Z",
+    "created": "2023-07-23T19:00:33Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-treeherder"
   ],
-  "documentNamespace": "https://github.com/mozilla/treeherder/dependency_graph/sbom-0f8e38938a178976",
+  "documentNamespace": "https://github.com/mozilla/treeherder/dependency_graph/sbom-f17b046465bf7c06",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-treeherder",
@@ -412,18 +412,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-auth0-js-9.13.4",
+      "SPDXID": "SPDXRef-npm-auth0-js-9.22.0",
       "name": "npm:auth0-js",
-      "versionInfo": "9.13.4",
+      "versionInfo": "9.22.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/auth0-js@9.13.4",
+          "referenceLocator": "pkg:npm/auth0-js@9.22.0",
           "referenceType": "purl"
         }
       ]
@@ -1891,9 +1891,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-boto3-1.28.0",
+      "SPDXID": "SPDXRef-pip-boto3-1.28.5",
       "name": "pip:boto3",
-      "versionInfo": "1.28.0",
+      "versionInfo": "1.28.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -1902,15 +1902,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/boto3@1.28.0",
+          "referenceLocator": "pkg:pypi/boto3@1.28.5",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-botocore-1.31.0",
+      "SPDXID": "SPDXRef-pip-botocore-1.31.5",
       "name": "pip:botocore",
-      "versionInfo": "1.31.0",
+      "versionInfo": "1.31.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -1919,7 +1919,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/botocore@1.31.0",
+          "referenceLocator": "pkg:pypi/botocore@1.31.5",
           "referenceType": "purl"
         }
       ]
@@ -2010,18 +2010,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-charset-normalizer-3.1.0",
+      "SPDXID": "SPDXRef-pip-charset-normalizer-3.2.0",
       "name": "pip:charset-normalizer",
-      "versionInfo": "3.1.0",
+      "versionInfo": "3.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/charset-normalizer@3.1.0",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.2.0",
           "referenceType": "purl"
         }
       ]
@@ -2044,9 +2044,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-click-8.1.4",
+      "SPDXID": "SPDXRef-pip-click-8.1.6",
       "name": "pip:click",
-      "versionInfo": "8.1.4",
+      "versionInfo": "8.1.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -2055,7 +2055,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/click@8.1.4",
+          "referenceLocator": "pkg:pypi/click@8.1.6",
           "referenceType": "purl"
         }
       ]
@@ -2350,18 +2350,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-frozenlist-1.3.3",
+      "SPDXID": "SPDXRef-pip-frozenlist-1.4.0",
       "name": "pip:frozenlist",
-      "versionInfo": "1.3.3",
+      "versionInfo": "1.4.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/frozenlist@1.3.3",
+          "referenceLocator": "pkg:pypi/frozenlist@1.4.0",
           "referenceType": "purl"
         }
       ]
@@ -2758,18 +2758,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-numpy-1.25.0",
+      "SPDXID": "SPDXRef-pip-numpy-1.25.1",
       "name": "pip:numpy",
-      "versionInfo": "1.25.0",
+      "versionInfo": "1.25.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/numpy@1.25.0",
+          "referenceLocator": "pkg:pypi/numpy@1.25.1",
           "referenceType": "purl"
         }
       ]
@@ -3336,9 +3336,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-whitenoise-5.2.0",
+      "SPDXID": "SPDXRef-pip-whitenoise-6.5.0",
       "name": "pip:whitenoise",
-      "versionInfo": "5.2.0",
+      "versionInfo": "6.5.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -3347,7 +3347,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/whitenoise@5.2.0",
+          "referenceLocator": "pkg:pypi/whitenoise@6.5.0",
           "referenceType": "purl"
         }
       ]
@@ -3467,6 +3467,40 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:pypi/cfgv@3.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pip-charset-normalizer-3.1.0",
+      "name": "pip:charset-normalizer",
+      "versionInfo": "3.1.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.1.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pip-click-8.1.4",
+      "name": "pip:click",
+      "versionInfo": "8.1.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/click@8.1.4",
           "referenceType": "purl"
         }
       ]
@@ -9898,6 +9932,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-asap-2.0.6",
+      "name": "npm:asap",
+      "versionInfo": "2.0.6",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/asap@2.0.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-asn1.js-5.4.1",
       "name": "npm:asn1.js",
       "versionInfo": "5.4.1",
@@ -12703,6 +12754,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-dezalgo-1.0.4",
+      "name": "npm:dezalgo",
+      "versionInfo": "1.0.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/dezalgo@1.0.4",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-diff-sequences-27.4.0",
       "name": "npm:diff-sequences",
       "versionInfo": "27.4.0",
@@ -14029,23 +14097,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-extend-3.0.2",
-      "name": "npm:extend",
-      "versionInfo": "3.0.2",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/extend@3.0.2",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-extract-zip-2.0.1",
       "name": "npm:extract-zip",
       "versionInfo": "2.0.1",
@@ -14143,6 +14194,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/fast-levenshtein@2.0.6",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-fast-safe-stringify-2.1.1",
+      "name": "npm:fast-safe-stringify",
+      "versionInfo": "2.1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/fast-safe-stringify@2.1.1",
           "referenceType": "purl"
         }
       ]
@@ -14624,23 +14692,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-form-data-2.5.1",
-      "name": "npm:form-data",
-      "versionInfo": "2.5.1",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/form-data@2.5.1",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-npm-form-data-4.0.0",
       "name": "npm:form-data",
       "versionInfo": "4.0.0",
@@ -14658,9 +14709,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-formidable-1.2.6",
+      "SPDXID": "SPDXRef-npm-formidable-2.1.2",
       "name": "npm:formidable",
-      "versionInfo": "1.2.6",
+      "versionInfo": "2.1.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -14669,7 +14720,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/formidable@1.2.6",
+          "referenceLocator": "pkg:npm/formidable@2.1.2",
           "referenceType": "purl"
         }
       ]
@@ -15071,7 +15122,7 @@
       "versionInfo": "10.3.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
+      "licenseConcluded": "ISC",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -15610,6 +15661,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-hexoid-1.0.0",
+      "name": "npm:hexoid",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/hexoid@1.0.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-highlight-words-core-1.2.2",
       "name": "npm:highlight-words-core",
       "versionInfo": "1.2.2",
@@ -16052,9 +16120,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-idtoken-verifier-2.2.2",
+      "SPDXID": "SPDXRef-npm-idtoken-verifier-2.2.3",
       "name": "npm:idtoken-verifier",
-      "versionInfo": "2.2.2",
+      "versionInfo": "2.2.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -16063,7 +16131,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/idtoken-verifier@2.2.2",
+          "referenceLocator": "pkg:npm/idtoken-verifier@2.2.3",
           "referenceType": "purl"
         }
       ]
@@ -19146,6 +19214,23 @@
       ]
     },
     {
+      "SPDXID": "SPDXRef-npm-mime-2.6.0",
+      "name": "npm:mime",
+      "versionInfo": "2.6.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/mime@2.6.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
       "SPDXID": "SPDXRef-npm-mime-db-1.52.0",
       "name": "npm:mime-db",
       "versionInfo": "1.52.0",
@@ -20664,7 +20749,7 @@
       "versionInfo": "1.10.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
+      "licenseConcluded": "BlueOak-1.0.0",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
@@ -21453,6 +21538,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:npm/qs@6.11.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-npm-qs-6.11.2",
+      "name": "npm:qs",
+      "versionInfo": "6.11.2",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:npm/qs@6.11.2",
           "referenceType": "purl"
         }
       ]
@@ -23787,9 +23889,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-superagent-3.8.3",
+      "SPDXID": "SPDXRef-npm-superagent-7.1.6",
       "name": "npm:superagent",
-      "versionInfo": "3.8.3",
+      "versionInfo": "7.1.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT",
@@ -23798,7 +23900,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/superagent@3.8.3",
+          "referenceLocator": "pkg:npm/superagent@7.1.6",
           "referenceType": "purl"
         }
       ]
@@ -26014,18 +26116,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-npm-word-wrap-1.2.3",
+      "SPDXID": "SPDXRef-npm-word-wrap-1.2.4",
       "name": "npm:word-wrap",
-      "versionInfo": "1.2.3",
+      "versionInfo": "1.2.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:npm/word-wrap@1.2.3",
+          "referenceLocator": "pkg:npm/word-wrap@1.2.4",
           "referenceType": "purl"
         }
       ]

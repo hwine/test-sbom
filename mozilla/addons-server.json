@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:52Z",
+    "created": "2023-07-23T19:00:32Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-addons-server"
   ],
-  "documentNamespace": "https://github.com/mozilla/addons-server/dependency_graph/sbom-36cadb6b1d5ed87d",
+  "documentNamespace": "https://github.com/mozilla/addons-server/dependency_graph/sbom-d3950abb84769eed",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-addons-server",

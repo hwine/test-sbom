@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:49Z",
+    "created": "2023-07-23T19:00:28Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-hubs"
   ],
-  "documentNamespace": "https://github.com/mozilla/hubs/dependency_graph/sbom-15e94de1934bbde3",
+  "documentNamespace": "https://github.com/mozilla/hubs/dependency_graph/sbom-79342d4c7989aa7c",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-hubs",
@@ -21103,7 +21103,7 @@
       "versionInfo": "6.0.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "GPL-3.0 AND MIT",
+      "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [

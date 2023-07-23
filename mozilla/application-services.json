@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-18T19:06:51Z",
+    "created": "2023-07-23T19:00:30Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-application-services"
   ],
-  "documentNamespace": "https://github.com/mozilla/application-services/dependency_graph/sbom-2bf2046511c7c29d",
+  "documentNamespace": "https://github.com/mozilla/application-services/dependency_graph/sbom-e8fd3597cf6e3661",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-application-services",
@@ -89,18 +89,18 @@
       "supplier": "NOASSERTION"
     },
     {
-      "SPDXID": "SPDXRef-pip-aiohttp-3.8.4",
+      "SPDXID": "SPDXRef-pip-aiohttp-3.8.5",
       "name": "pip:aiohttp",
-      "versionInfo": "3.8.4",
+      "versionInfo": "3.8.5",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "Apache-2.0",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/aiohttp@3.8.4",
+          "referenceLocator": "pkg:pypi/aiohttp@3.8.5",
           "referenceType": "purl"
         }
       ]
@@ -259,52 +259,52 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-charset-normalizer-3.1.0",
+      "SPDXID": "SPDXRef-pip-charset-normalizer-3.2.0",
       "name": "pip:charset-normalizer",
-      "versionInfo": "3.1.0",
+      "versionInfo": "3.2.0",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/charset-normalizer@3.1.0",
+          "referenceLocator": "pkg:pypi/charset-normalizer@3.2.0",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-click-8.1.3",
+      "SPDXID": "SPDXRef-pip-click-8.1.6",
       "name": "pip:click",
-      "versionInfo": "8.1.3",
+      "versionInfo": "8.1.6",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/click@8.1.3",
+          "referenceLocator": "pkg:pypi/click@8.1.6",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-cookiecutter-2.1.1",
+      "SPDXID": "SPDXRef-pip-cookiecutter-2.2.3",
       "name": "pip:cookiecutter",
-      "versionInfo": "2.1.1",
+      "versionInfo": "2.2.3",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/cookiecutter@2.1.1",
+          "referenceLocator": "pkg:pypi/cookiecutter@2.2.3",
           "referenceType": "purl"
         }
       ]
@@ -390,23 +390,6 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:pypi/jinja2@3.1.2",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
-      "SPDXID": "SPDXRef-pip-jinja2-time-0.2.0",
-      "name": "pip:jinja2-time",
-      "versionInfo": "0.2.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/jinja2-time@0.2.0",
           "referenceType": "purl"
         }
       ]
@@ -531,18 +514,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-pyyaml-6.0",
+      "SPDXID": "SPDXRef-pip-pyyaml-6.0.1",
       "name": "pip:pyyaml",
-      "versionInfo": "6.0",
+      "versionInfo": "6.0.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/pyyaml@6.0",
+          "referenceLocator": "pkg:pypi/pyyaml@6.0.1",
           "referenceType": "purl"
         }
       ]
@@ -633,9 +616,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-taskcluster-54.1.2",
+      "SPDXID": "SPDXRef-pip-taskcluster-54.3.1",
       "name": "pip:taskcluster",
-      "versionInfo": "54.1.2",
+      "versionInfo": "54.3.1",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -644,15 +627,15 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/taskcluster@54.1.2",
+          "referenceLocator": "pkg:pypi/taskcluster@54.3.1",
           "referenceType": "purl"
         }
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-taskcluster-taskgraph-5.4.0",
+      "SPDXID": "SPDXRef-pip-taskcluster-taskgraph-5.6.2",
       "name": "pip:taskcluster-taskgraph",
-      "versionInfo": "5.4.0",
+      "versionInfo": "5.6.2",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "NOASSERTION",
@@ -661,7 +644,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/taskcluster-taskgraph@5.4.0",
+          "referenceLocator": "pkg:pypi/taskcluster-taskgraph@5.6.2",
           "referenceType": "purl"
         }
       ]
@@ -718,18 +701,18 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-urllib3-2.0.3",
+      "SPDXID": "SPDXRef-pip-urllib3-2.0.4",
       "name": "pip:urllib3",
-      "versionInfo": "2.0.3",
+      "versionInfo": "2.0.4",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
-      "licenseConcluded": "MIT",
+      "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/urllib3@2.0.3",
+          "referenceLocator": "pkg:pypi/urllib3@2.0.4",
           "referenceType": "purl"
         }
       ]
@@ -786,23 +769,6 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-pip-charset-normalizer-3.2.0",
-      "name": "pip:charset-normalizer",
-      "versionInfo": "3.2.0",
-      "downloadLocation": "NOASSERTION",
-      "filesAnalyzed": false,
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:pypi/charset-normalizer@3.2.0",
-          "referenceType": "purl"
-        }
-      ]
-    },
-    {
       "SPDXID": "SPDXRef-pip-deprecated-1.2.14",
       "name": "pip:deprecated",
       "versionInfo": "1.2.14",
@@ -832,6 +798,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:pypi/pyjwt@2.7.0",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-pip-urllib3-2.0.3",
+      "name": "pip:urllib3",
+      "versionInfo": "2.0.3",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:pypi/urllib3@2.0.3",
           "referenceType": "purl"
         }
       ]
@@ -1647,6 +1630,23 @@
         {
           "referenceCategory": "PACKAGE-MANAGER",
           "referenceLocator": "pkg:cargo/aho-corasick@0.7.18",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-rust-android-tzdata-0.1.1",
+      "name": "rust:android-tzdata",
+      "versionInfo": "0.1.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:cargo/android-tzdata@0.1.1",
           "referenceType": "purl"
         }
       ]
@@ -2485,9 +2485,9 @@
       ]
     },
     {
-      "SPDXID": "SPDXRef-rust-chrono-0.4.24",
+      "SPDXID": "SPDXRef-rust-chrono-0.4.26",
       "name": "rust:chrono",
-      "versionInfo": "0.4.24",
+      "versionInfo": "0.4.26",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "MIT OR Apache-2.0",
@@ -2496,7 +2496,7 @@
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:cargo/chrono@0.4.24",
+          "referenceLocator": "pkg:cargo/chrono@0.4.26",
           "referenceType": "purl"
         }
       ]
