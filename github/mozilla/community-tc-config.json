@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-23T19:00:31Z",
+    "created": "2023-07-23T20:00:31Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-community-tc-config"
   ],
-  "documentNamespace": "https://github.com/mozilla/community-tc-config/dependency_graph/sbom-be0239133ce1ee4e",
+  "documentNamespace": "https://github.com/mozilla/community-tc-config/dependency_graph/sbom-00fa19ea0460c174",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-community-tc-config",
