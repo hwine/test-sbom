@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-23T19:00:33Z",
+    "created": "2023-07-23T20:00:33Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-treeherder"
   ],
-  "documentNamespace": "https://github.com/mozilla/treeherder/dependency_graph/sbom-f17b046465bf7c06",
+  "documentNamespace": "https://github.com/mozilla/treeherder/dependency_graph/sbom-71e149fc2339a5d3",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-treeherder",

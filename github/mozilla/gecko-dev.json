@@ -2,7 +2,7 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2023-07-23T19:00:28Z",
+    "created": "2023-07-23T20:00:27Z",
     "creators": [
       "Tool: GitHub.com-Dependency-Graph"
     ]
@@ -12,7 +12,7 @@
   "documentDescribes": [
     "SPDXRef-com.github.mozilla-gecko-dev"
   ],
-  "documentNamespace": "https://github.com/mozilla/gecko-dev/dependency_graph/sbom-0038331087468b31",
+  "documentNamespace": "https://github.com/mozilla/gecko-dev/dependency_graph/sbom-24e1e96984feb992",
   "packages": [
     {
       "SPDXID": "SPDXRef-com.github.mozilla-gecko-dev",
