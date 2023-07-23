@@ -35,12 +35,12 @@ jobs:
         mkdir -p anchore-syft/mozilla
         mv "${{ github.event.repository.name }}-sbom.spdx.json" anchore-syft/mozilla/kitsune.json
 
-    # - name: commit any changes
-    #   run: |
-    #     git config user.name "hwine"
-    #     git config user.email "132412+hwine@users.noreply.github.com"
-    #     git add .
-    #     # we may not have added anything, so allow the commit to fail
-    #     # TODO: find a better test to _only_ allow no-change-error to be suppressed
-    #     git commit --message "update from workflow" || true
-    #     git push
+    - name: commit any changes
+      run: |
+        git config user.name "hwine"
+        git config user.email "132412+hwine@users.noreply.github.com"
+        git add .
+        # we may not have added anything, so allow the commit to fail
+        # TODO: find a better test to _only_ allow no-change-error to be suppressed
+        git commit --message "update from workflow" || true
+        git push
