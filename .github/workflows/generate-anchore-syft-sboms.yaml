@@ -1,0 +1,45 @@
+name: Anchore syft SBOM commit
+
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+
+jobs:
+  retrieve-anchore-syft-sboms:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v3
+
+
+    - name: checkout target repo
+      run: |
+        mkdir wip
+        cd wip
+        git clone \
+          --depth 1 \
+          --single-branch \
+          https://github.com/mozilla/kitsune.git target
+
+    - name: generate sboms
+      uses: anchore/sbom-action@v0
+      with:
+        path: ./wip/target/
+        format: spdx-json
+        output-file: "${{ github.event.repository.name }}-sbom.spdx.json"
+
+    - name: move the anchore files to their final spot
+      run: |
+        mkdir -p anchore-syft/mozilla
+        mv "${{ github.event.repository.name }}-sbom.spdx.json" anchore-syft/mozilla/kitsune.json
+
+    - name: commit any changes
+      run: |
+        git config user.name "hwine"
+        git config user.email "132412+hwine@users.noreply.github.com"
+        git add .
+        # we may not have added anything, so allow the commit to fail
+        # TODO: find a better test to _only_ allow no-change-error to be suppressed
+        git commit --message "update from workflow" || true
+        git push
