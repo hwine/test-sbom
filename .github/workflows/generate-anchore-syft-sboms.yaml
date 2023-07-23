@@ -28,6 +28,7 @@ jobs:
       with:
         path: ./wip/target/
         format: spdx-json
+        output-file: "${{ github.event.repository.name }}-sbom.spdx.json"
 
     - name: move the anchore files to their final spot
       run: |
