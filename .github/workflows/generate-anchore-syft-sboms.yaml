@@ -7,21 +7,11 @@ permissions:
   contents: write
 
 jobs:
-  retrieve-sboms:
+  retrieve-anchore-syft-sboms:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v3
-
-    - name: Set env variables for later steps
-      run: |
-        export BASE_DIR=$(pwd)
-        echo BASE_DIR=$BASE_DIR >> $GITHUB_ENV
-
-    - name: see if env set in following step
-      run: |
-        echo "BASE_DIR=$BASE_DIR"
-        echo "{{ env.BASE_DIR }}=${{ env.BASE_DIR }}"
 
 
     - name: checkout target repo
@@ -37,16 +27,12 @@ jobs:
       uses: anchore/sbom-action@v0
       with:
         path: ./wip/target/
-          # artifact name wants an abs path
-        artifact-name: ${{ env.BASE_DIR }}/wip/mozilla-kitsune.json
-        # repo_list_path: repo-list.txt
-        # save_directory_path: wip
-        # github_token: ${{ secrets.GITHUB_TOKEN }}
+        format: spdx-json
 
     - name: move the anchore files to their final spot
       run: |
         mkdir -p anchore-syft/mozilla
-        mv ./wip/mozilla-kitsune.json anchore-syft/mozilla/kitsune.json
+        mv "${{ github.event.repository.name }}-sbom.spdx.json" anchore-syft/mozilla/kitsune.json
 
     # - name: commit any changes
     #   run: |
