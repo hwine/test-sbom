@@ -21,19 +21,19 @@ jobs:
     - name: pretty print the JSON
       run: |
         for d in $(find wip -type d); do
-          mkdir -p ${d#*/}
+          mkdir -p github/${d#*/}
         done
         # GitHub output wraps the SPDX SBOM inside a "sbom" property. Strip
         # that as we format
         for f in $(find wip -type f) ; do
-          jq .sbom "$f" > "${f#*/}"
+          jq .sbom "$f" > github/"${f#*/}"
         done
 
-    - name: commit any changes
+    - name: commit any changes where we expect them
       run: |
         git config user.name "hwine"
         git config user.email "132412+hwine@users.noreply.github.com"
-        git add .
+        git add github
         # we may not have added anything, so allow the commit to fail
         # TODO: find a better test to _only_ allow no-change-error to be suppressed
         git commit --message "update from workflow" || true
